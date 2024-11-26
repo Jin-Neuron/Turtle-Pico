@@ -1350,14 +1350,14 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP6050SSD.pdf" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "7" (uuid cdd0bff1-efd8-40e1-8f5d-260a0f0a75a4))
-    (pin "2" (uuid 7a75542e-4972-496e-b8e3-2625f90fdeba))
-    (pin "1" (uuid 20063243-a429-4bf8-beb2-0883512bc1d8))
-    (pin "3" (uuid dabced8a-b89d-499e-aa08-c11136f63454))
-    (pin "5" (uuid a68268e5-c742-44d6-9330-372580b4de25))
-    (pin "4" (uuid 4634ce46-c2a4-4d6f-b695-aa5d135c72a8))
-    (pin "6" (uuid 12ea66ff-14c6-45d3-8ac0-a558f7155456))
-    (pin "8" (uuid b3fef7ea-7267-4b4e-b8c5-68d9307823a9))
+    (pin "7" (uuid cdd0bff1-efd8-40e1-8f5d-260a0f0a75a5))
+    (pin "2" (uuid 7a75542e-4972-496e-b8e3-2625f90fdebb))
+    (pin "1" (uuid 20063243-a429-4bf8-beb2-0883512bc1d9))
+    (pin "3" (uuid dabced8a-b89d-499e-aa08-c11136f63455))
+    (pin "5" (uuid a68268e5-c742-44d6-9330-372580b4de26))
+    (pin "4" (uuid 4634ce46-c2a4-4d6f-b695-aa5d135c72a9))
+    (pin "6" (uuid 12ea66ff-14c6-45d3-8ac0-a558f7155457))
+    (pin "8" (uuid b3fef7ea-7267-4b4e-b8c5-68d9307823aa))
     (instances
       (project "TurtlePico-Minimal"
         (path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
