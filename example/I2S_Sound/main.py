@@ -1,5 +1,4 @@
 import os
-from machine import I2S
 from machine import Pin
 from machine import SPI
 from lib.wavplayer import WavPlayer
@@ -24,7 +23,7 @@ os.mount(sd, "/sd")
 list = os.listdir("/sd")
 print(list)
 
-WAV_FILE = "12-Inner-Universe.wav"
+WAV_FILE = "09-Someday-My-Prince-Will-Come.wav"
 
 wp = WavPlayer(
     id=TurtlePico.I2S_ID,
@@ -35,10 +34,11 @@ wp = WavPlayer(
     volume=-2
 )
 print("==========  START PLAYBACK ==========")
-try:
-    wp.play(WAV_FILE)
-except (KeyboardInterrupt, Exception) as e:
-    print("caught exception {} {}".format(type(e).__name__, e))
+wp.play(WAV_FILE)
 
-while wp.isplaying():
-    pass
+try:
+    while wp.isplaying():
+        pass
+except (KeyboardInterrupt, Exception) as e:
+    wp.wav.close()
+    wp.audio_out.deinit()
