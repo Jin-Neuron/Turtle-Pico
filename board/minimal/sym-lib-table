@@ -4,4 +4,5 @@
   (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/5077CR-16SMC2-BK-TR/5077CR-16SMC2-BK-TR.kicad_sym")(options "")(descr ""))
   (lib (name "TC78H653FTG_EL")(type "KiCad")(uri "${KIPRJMOD}/lib/TC78H653FTG/TC78H653FTG_EL.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8835DSSR")(type "KiCad")(uri "${KIPRJMOD}/lib/DRV8835/DRV8835DSSR.kicad_sym")(options "")(descr ""))
+  (lib (name "rp2350b-qfn80")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2350/rp2350b-qfn80.kicad_sym")(options "")(descr ""))
 )
