@@ -12,4 +12,5 @@
   (lib (name "STX-3000")(type "KiCad")(uri "${KIPRJMOD}/lib/STX-3000/STX-3000.pretty")(options "")(descr ""))
   (lib (name "ABLS-12_000MHZ-B4-T")(type "KiCad")(uri "${KIPRJMOD}/lib/ABLS-12_000MHZ-B4-T/ABLS-12_000MHZ-B4-T.pretty")(options "")(descr ""))
   (lib (name "DS04254203BKSMT")(type "KiCad")(uri "${KIPRJMOD}/lib/DS04-254-2-03BK-SMT/DS04254203BKSMT.pretty")(options "")(descr ""))
+  (lib (name "BNO086")(type "KiCad")(uri "${KIPRJMOD}/lib/BNO086/BNO086.pretty")(options "")(descr ""))
 )
