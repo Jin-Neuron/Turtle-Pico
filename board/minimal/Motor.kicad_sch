@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20250425)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "0d028c0b-1861-4c66-bc3d-cf4a4ed6b51e")
 	(paper "A4")
 	(lib_symbols
@@ -13,6 +13,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
 				(effects
@@ -31,29 +32,29 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -66,20 +67,20 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_Socket_1_1"
@@ -178,6 +179,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -196,29 +198,29 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -231,20 +233,20 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x03_Pin_1_1"
@@ -378,6 +380,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at 11.43 3.81 0)
 				(effects
@@ -398,81 +401,81 @@
 			)
 			(property "Footprint" "DRV8835DSSR"
 				(at 46.99 -94.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv8835"
 				(at 46.99 -194.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Motor / Motion / Ignition Controllers & Drivers 1.5A Low Vlt Stepper Motor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "0.8"
 				(at 46.99 -394.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "595-DRV8835DSSR"
 				(at 46.99 -494.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8835DSSR?qs=UFc95S4Z4CYjBOyEmbTDlA%3D%3D"
 				(at 46.99 -594.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
 				(at 46.99 -694.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "DRV8835DSSR"
 				(at 46.99 -794.92 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "DRV8835DSSR_1_1"
@@ -734,6 +737,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -754,47 +758,47 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -827,7 +831,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -845,7 +849,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -864,20 +868,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3.3V"
@@ -890,38 +895,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -986,20 +991,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
@@ -1012,38 +1018,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1084,20 +1090,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
@@ -1110,38 +1117,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_1"
@@ -1213,12 +1220,6 @@
 		(uuid "0e72e138-1523-44b6-beb4-8846cc3c3021")
 	)
 	(junction
-		(at 195.58 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fb84989-07be-41a0-92c8-e4b56111774d")
-	)
-	(junction
 		(at 151.13 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1231,13 +1232,13 @@
 		(uuid "1a8b67a3-e1ef-45f2-b593-be25999d5bd2")
 	)
 	(junction
-		(at 195.58 109.22)
+		(at 167.64 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34695b47-2574-48d3-be8e-6e99e8b848ff")
 	)
 	(junction
-		(at 196.85 100.33)
+		(at 168.91 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36494a3b-fe10-4d73-a0fb-41dbbbcae3a8")
@@ -1249,22 +1250,28 @@
 		(uuid "37c12b18-75dd-4d77-af7c-44895a3bf540")
 	)
 	(junction
-		(at 196.85 111.76)
+		(at 168.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5050f7d6-77db-45c4-873a-8254461fa3c7")
 	)
 	(junction
-		(at 196.85 123.19)
+		(at 168.91 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5309b7fe-01bb-4518-9fd8-899825239a07")
 	)
 	(junction
-		(at 195.58 97.79)
+		(at 167.64 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b88d6dc-f9e8-4597-aa90-15bf1614bfac")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f203b97a-7809-464b-a7a5-548b46fbad25")
 	)
 	(wire
 		(pts
@@ -1288,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 95.25) (xy 198.12 95.25)
+			(xy 166.37 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 111.76) (xy 196.85 100.33)
+			(xy 168.91 101.6) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 195.58 109.22)
+			(xy 170.18 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 195.58 120.65)
+			(xy 170.18 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 195.58 109.22)
+			(xy 167.64 87.63) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 198.12 86.36)
+			(xy 167.64 76.2) (xy 170.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 127) (xy 196.85 123.19)
+			(xy 168.91 116.84) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 198.12 106.68)
+			(xy 166.37 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 198.12 88.9)
+			(xy 168.91 78.74) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 111.76) (xy 198.12 111.76)
+			(xy 168.91 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1528,26 +1535,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 102.87) (xy 195.58 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf852d2-c54d-43a4-afe5-28c9e321507b")
-	)
-	(wire
-		(pts
-			(xy 165.1 101.6) (xy 165.1 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a85f26da-c7cb-43d5-a538-ae8ec545c29a")
-	)
-	(wire
-		(pts
 			(xy 106.68 106.68) (xy 107.95 106.68)
 		)
 		(stroke
@@ -1568,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 83.82) (xy 198.12 83.82)
+			(xy 166.37 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 195.58 120.65)
+			(xy 167.64 99.06) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 196.85 88.9)
+			(xy 168.91 90.17) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 97.79) (xy 195.58 86.36)
+			(xy 167.64 87.63) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 123.19) (xy 196.85 111.76)
+			(xy 168.91 113.03) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 198.12 118.11)
+			(xy 166.37 107.95) (xy 170.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1628,13 +1615,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 97.79) (xy 195.58 102.87)
+			(xy 167.64 72.39) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db2be42c-1ce3-46b8-94d9-c4dae68099e5")
+		(uuid "d8698428-7c74-4d97-b852-d062fa127bee")
 	)
 	(wire
 		(pts
@@ -1678,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 196.85 123.19)
+			(xy 170.18 113.03) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 195.58 97.79)
+			(xy 170.18 87.63) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 198.12 100.33)
+			(xy 168.91 90.17) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1695,7 @@
 	)
 	(global_label "ESC_{RR}"
 		(shape input)
-		(at 194.31 106.68 180)
+		(at 166.37 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1718,13 +1705,13 @@
 		)
 		(uuid "3448a791-b9c5-403d-8c6b-badd6f0416a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.6135 106.68 0)
+			(at 157.6735 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1741,18 +1728,18 @@
 		(uuid "5027b660-633d-4cd3-9db5-262dd285a69b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.2382 99.06 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "ESC_{RL}"
 		(shape input)
-		(at 194.31 118.11 180)
+		(at 166.37 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1762,19 +1749,19 @@
 		)
 		(uuid "54ca45d0-e64b-4c63-a972-e54da7c809d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.807 118.11 0)
+			(at 157.867 107.95 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "ESC_{FL}"
 		(shape input)
-		(at 194.31 95.25 180)
+		(at 166.37 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1784,19 +1771,19 @@
 		)
 		(uuid "8b3a9ec0-9724-4a79-b72e-1c17a278d2db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.9521 95.25 0)
+			(at 158.0121 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "ESC_{FR}"
 		(shape input)
-		(at 194.31 83.82 180)
+		(at 166.37 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1806,13 +1793,13 @@
 		)
 		(uuid "8fd5c149-f0e9-4b5c-ba7b-74c2934c7942")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.7586 83.82 0)
+			(at 157.8186 73.66 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1829,12 +1816,12 @@
 		(uuid "94625c75-ed53-40aa-943c-f0de8c74a3ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.9842 101.6 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1851,12 +1838,12 @@
 		(uuid "aeffd2d7-2cd4-4fe5-8ed5-9e92c84bc8a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.4196 104.14 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1873,12 +1860,12 @@
 		(uuid "d07e546b-5270-48da-a4f4-610723725034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.3628 116.84 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -1891,13 +1878,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "187023c2-0133-457d-9ae7-d3c6627db8bc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 140.97 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
@@ -1910,20 +1897,20 @@
 		)
 		(property "Footprint" ""
 			(at 140.97 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 96.52 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -1940,7 +1927,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1955,13 +1942,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dda9e2e-7d43-45bb-b3c5-8490e22d5313")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 151.13 123.19 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -1974,20 +1961,20 @@
 		)
 		(property "Footprint" ""
 			(at 151.13 116.84 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 151.13 116.84 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2004,7 +1991,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2019,13 +2006,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21611d71-6814-4ad7-aad4-d827c0215219")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 106.68 120.65 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -2038,20 +2025,20 @@
 		)
 		(property "Footprint" ""
 			(at 106.68 114.3 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 106.68 114.3 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2068,7 +2055,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2084,7 +2071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "247f5e86-e670-442e-8082-c1ff7babfa34")
-		(property "Reference" "IC1"
+		(property "Reference" "U5"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -2102,22 +2089,22 @@
 		)
 		(property "Footprint" "Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias"
 			(at 93.98 193.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv8835"
 			(at 93.98 293.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2130,42 +2117,42 @@
 		)
 		(property "Mouser Part Number" "595-DRV8835DSSR"
 			(at 93.98 593.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8835DSSR?qs=UFc95S4Z4CYjBOyEmbTDlA%3D%3D"
 			(at 93.98 693.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
 			(at 93.98 793.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "DRV8835DSSR"
 			(at 93.98 893.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -2210,7 +2197,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "IC1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2225,13 +2212,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375fff99-48fe-4f4e-87a1-5a14447aaf99")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 106.68 101.6 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -2244,20 +2231,20 @@
 		)
 		(property "Footprint" ""
 			(at 106.68 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 106.68 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2274,7 +2261,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e5a6d16-6147-4064-985b-43f8921f2527")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -2309,20 +2296,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 152.0952 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71C104KA37_01A-3144197.pdf"
 			(at 151.13 106.68 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2335,38 +2322,38 @@
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
 			(at 151.13 106.68 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM188R71C104KA37J"
 			(at 151.13 106.68 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "81-GCM188R71C104KA7J"
 			(at 151.13 106.68 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71C104KA7J"
 			(at 151.13 106.68 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2378,7 +2365,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48f5a43e-b293-4243-9b84-49fe29d4c6ab")
-		(property "Reference" "C22"
+		(property "Reference" "C25"
 			(at 99.06 108.585 0)
 			(effects
 				(font
@@ -2413,20 +2400,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 103.8352 114.3 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71C104KA37_01A-3144197.pdf"
 			(at 102.87 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2439,38 +2426,38 @@
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
 			(at 102.87 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM188R71C104KA37J"
 			(at 102.87 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "81-GCM188R71C104KA7J"
 			(at 102.87 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71C104KA7J"
 			(at 102.87 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2482,7 +2469,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "C22")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2490,15 +2477,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 203.2 97.79 180)
+		(at 175.26 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "51d16b85-712e-45ff-89a8-db4d4a9ce290")
-		(property "Reference" "J4"
-			(at 200.152 101.6 0)
+		(property "Reference" "J6"
+			(at 172.212 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2494,7 @@
 			)
 		)
 		(property "Value" "FL_ESC"
-			(at 196.85 103.124 0)
+			(at 168.91 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,25 +2503,25 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 203.2 97.79 0)
+			(at 175.26 87.63 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 97.79 0)
+		(property "Datasheet" ""
+			(at 175.26 87.63 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 203.2 97.79 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2540,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2561,24 +2548,24 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 127 0)
+		(at 168.91 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "58d2bf6b-1906-419e-b227-b5f85ae173cf")
-		(property "Reference" "#PWR029"
-			(at 196.85 133.35 0)
+		(property "Reference" "#PWR035"
+			(at 168.91 123.19 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 130.81 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,25 +2573,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 127 0)
+			(at 168.91 116.84 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 127 0)
+			(at 168.91 116.84 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 196.85 127 0)
+			(at 168.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2604,71 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR029")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 167.64 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bf46914-a642-47aa-a317-27cc0f3548cd")
+		(property "Reference" "#PWR034"
+			(at 167.64 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5797ceb9-888c-4250-ac73-31e7a0e69499")
+		)
+		(instances
+			(project "TurtlePico-Minimal"
+				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f415bb7-57d3-4e81-a85a-d6af84999c8b")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 143.256 110.236 0)
 			(effects
 				(font
@@ -2652,20 +2703,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 147.32 106.68 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 147.32 106.68 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2685,7 +2736,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2b32704-c3ac-462f-a547-7943cc25192a")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 143.51 97.028 0)
 			(effects
 				(font
@@ -2720,20 +2771,20 @@
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 147.32 101.6 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 147.32 101.6 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -2753,71 +2804,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bba3d418-cc31-455e-8568-48f2bf3c1c19")
-		(property "Reference" "#PWR026"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 165.1 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8b7c146-4f9e-46e9-af5b-6a46d62114a8")
-		)
-		(instances
-			(project "TurtlePico-Minimal"
-				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR026")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2812,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 203.2 120.65 180)
+		(at 175.26 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2833,7 +2820,7 @@
 		(dnp no)
 		(uuid "e9cb0e9d-772d-4105-be5d-05cb912681aa")
 		(property "Reference" "J8"
-			(at 200.152 124.46 0)
+			(at 172.212 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2829,7 @@
 			)
 		)
 		(property "Value" "RL_ESC"
-			(at 196.85 125.984 0)
+			(at 168.91 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,25 +2838,25 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 203.2 120.65 0)
+			(at 175.26 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 120.65 0)
+		(property "Datasheet" ""
+			(at 175.26 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 203.2 120.65 0)
+			(at 175.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2883,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 203.2 109.22 0)
+		(at 175.26 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2905,7 +2892,7 @@
 		(dnp no)
 		(uuid "eb20bf35-6ba3-40e0-adb1-c3592fab732a")
 		(property "Reference" "J7"
-			(at 200.152 112.776 0)
+			(at 172.212 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2901,7 @@
 			)
 		)
 		(property "Value" "RR_ESC"
-			(at 196.85 114.554 0)
+			(at 168.91 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,25 +2910,25 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 203.2 109.22 0)
+			(at 175.26 99.06 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 109.22 0)
+		(property "Datasheet" ""
+			(at 175.26 99.06 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 203.2 109.22 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 203.2 86.36 0)
+		(at 175.26 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2976,8 +2963,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f515f042-24bc-497c-a2aa-ea0d6326cea4")
-		(property "Reference" "J3"
-			(at 200.152 89.916 0)
+		(property "Reference" "J5"
+			(at 172.212 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2973,7 @@
 			)
 		)
 		(property "Value" "FR_ESC"
-			(at 196.85 91.694 0)
+			(at 168.91 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,25 +2982,25 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 203.2 86.36 0)
+			(at 175.26 76.2 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 86.36 0)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 203.2 86.36 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3019,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)

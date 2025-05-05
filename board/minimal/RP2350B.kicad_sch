@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20250425)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "625bebb8-2be0-4d0f-ad59-ad7d73632504")
 	(paper "A4")
 	(lib_symbols
@@ -15,6 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -35,47 +36,47 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -108,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -152,6 +153,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
 				(at 3.175 5.08 0)
 				(effects
@@ -172,47 +174,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Crystal*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Crystal_GND24_0_1"
@@ -411,6 +413,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
 				(effects
@@ -429,47 +432,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Inductor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L_0_1"
@@ -572,6 +575,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -590,47 +594,47 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -650,7 +654,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -668,7 +672,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -690,6 +694,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -8.89 8.89 0)
 				(effects
@@ -708,47 +713,47 @@
 			)
 			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "W25Q128JVS_0_1"
@@ -916,6 +921,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.62 6.35 0)
 				(effects
@@ -934,47 +940,47 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 				(at 0 -22.86 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "2A Buck DC/DC"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TSOT?23*"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "AP63203WU_0_1"
@@ -1113,6 +1119,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
 				(effects
@@ -1132,38 +1139,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 5.08 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_Push_0_1"
@@ -1253,20 +1260,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+1V1"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+1V1"
@@ -1279,38 +1287,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+1V1\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+1V1_0_1"
@@ -1375,20 +1383,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3.3V"
@@ -1401,38 +1410,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -1497,20 +1506,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
@@ -1523,38 +1533,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1595,7 +1605,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1606,13 +1616,14 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
@@ -1625,38 +1636,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flag power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
@@ -1696,20 +1707,21 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
@@ -1722,38 +1734,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_1"
@@ -1824,6 +1836,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 -1.27 0)
 				(effects
@@ -1842,29 +1855,29 @@
 			)
 			(property "Footprint" ""
 				(at -6.35 45.72 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -6.35 45.72 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at -1.27 41.91 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "RP2350B-QFN80_0_1"
@@ -5508,12 +5521,12 @@
 		(uuid "07cbe9d6-d646-44e5-820b-5768e274a3b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.3404 102.87 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5530,12 +5543,12 @@
 		(uuid "09cb95f7-cddf-4a85-b7aa-84afe74e531d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5552,12 +5565,12 @@
 		(uuid "0cb1b1bd-d00b-457f-ae1a-94e19cbabc04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.5533 95.25 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5574,12 +5587,12 @@
 		(uuid "0da07429-7fdb-4262-8c96-f30547c3776e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.6584 49.53 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5596,12 +5609,12 @@
 		(uuid "0f922821-e78b-4bda-9b64-0d7295e575d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2517 74.93 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5618,12 +5631,12 @@
 		(uuid "0ff2e847-92fd-43da-bc71-4de87ab159bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.4467 78.74 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -5640,12 +5653,12 @@
 		(uuid "14d9c5cd-595f-47cc-91a2-a6dab3633221")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.0146 80.01 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5662,12 +5675,12 @@
 		(uuid "1513d9b5-d920-4c9c-b251-517a6c695c96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.4699 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5684,12 +5697,12 @@
 		(uuid "15dd045b-71d7-4607-8b5c-be5444ba9771")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.6547 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -5706,12 +5719,12 @@
 		(uuid "18c66941-8619-4f5b-a2d8-c2e4b4e67638")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2033 77.47 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5728,16 +5741,16 @@
 		(uuid "22ef1512-3305-4b1f-8d7d-52edc4511e27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 158.75 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "Tx{slash}TRIG"
+	(global_label "TRIG"
 		(shape output)
 		(at 133.35 62.23 0)
 		(fields_autoplaced yes)
@@ -5749,13 +5762,13 @@
 		)
 		(uuid "23125c87-492f-490b-ae42-7cddeb4c12e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7738 62.23 0)
+			(at 140.4476 62.23 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5772,16 +5785,16 @@
 		(uuid "25883796-6548-4acf-87b3-b5b9f6f018ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.8491 128.27 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "Rx{slash}Echo"
+	(global_label "Echo"
 		(shape input)
 		(at 133.35 59.69 0)
 		(fields_autoplaced yes)
@@ -5793,13 +5806,13 @@
 		)
 		(uuid "2ba520a0-79e4-46da-83e7-81307e4e0193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4994 59.69 0)
+			(at 140.8708 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5816,12 +5829,12 @@
 		(uuid "2eab8f3d-0cd5-4c35-a4d6-96e723106c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.9433 154.94 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5838,12 +5851,12 @@
 		(uuid "3085a925-1f84-45c3-a7f3-28fd824ea620")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7079 64.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5860,12 +5873,12 @@
 		(uuid "311ef855-e278-4368-9e46-20ffe1226d28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.4086 123.19 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -5882,12 +5895,12 @@
 		(uuid "32a5e6fc-75e0-42a3-a89d-b9622e224cc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.4467 81.28 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -5904,12 +5917,12 @@
 		(uuid "33dd0afe-d511-4520-8ee3-00a933827a27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.414 127 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -5926,12 +5939,12 @@
 		(uuid "36ee271a-0fa0-4242-8495-b9df96285580")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.9014 130.81 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5948,12 +5961,12 @@
 		(uuid "3d613c3e-f96d-47ec-8be4-7e865c43aa97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 173.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5970,12 +5983,12 @@
 		(uuid "466ad7b7-0a86-4169-bbfd-0af5132a2780")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7214 118.11 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5992,12 +6005,12 @@
 		(uuid "48c2890c-2abf-43d7-8433-d32bf3b7ef3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.5533 90.17 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6014,12 +6027,12 @@
 		(uuid "53fe1b51-3300-4700-8c58-84bc187f6d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.8491 105.41 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6036,12 +6049,12 @@
 		(uuid "544bbdd7-1245-430a-bbcc-a14477285d23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.6584 52.07 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6058,12 +6071,12 @@
 		(uuid "54eb7f4b-441c-4002-a2e1-5a1c48f9807e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.1689 163.83 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6080,12 +6093,12 @@
 		(uuid "58f90877-9f92-4307-8283-a547d28cfe5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.8694 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6102,12 +6115,12 @@
 		(uuid "59bbcf75-e62c-484b-ad9d-10539e70582a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.9774 72.39 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6124,12 +6137,12 @@
 		(uuid "5ad2cf89-e84f-4e7d-9e18-b967dda73b2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.83 95.25 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6146,12 +6159,12 @@
 		(uuid "5cce1e5d-ba65-41a6-bf94-59e6d8d8ca7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.0629 115.57 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6168,12 +6181,12 @@
 		(uuid "67ac1ad1-b83d-4fa5-b154-cb7b141db9c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.1367 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6190,12 +6203,12 @@
 		(uuid "6910cce1-d479-43ae-85fc-a01bed4ee02c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.3453 87.63 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6212,12 +6225,12 @@
 		(uuid "69b9c12d-59fd-455d-b172-b7f9c19c2b56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.3934 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6234,12 +6247,12 @@
 		(uuid "6af825e1-ea36-4125-98f4-ded665250e22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.4467 76.2 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6256,12 +6269,12 @@
 		(uuid "6e7ed434-0dda-43d2-8362-5277bb3e7280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.4467 73.66 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6278,12 +6291,12 @@
 		(uuid "7094d0d7-c37b-47fc-afc6-cbcfa7b15fc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.1472 90.17 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6300,12 +6313,12 @@
 		(uuid "77590c5b-f39d-44c1-a1b4-5e667ed0d8c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.9572 133.35 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6322,12 +6335,12 @@
 		(uuid "80dc23f2-22a7-4efd-8892-35d5bcb78f9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.5218 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6344,12 +6357,12 @@
 		(uuid "8ab25c88-8ace-4c35-82df-b8514347bc26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.574 69.85 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6366,12 +6379,12 @@
 		(uuid "9303b1c9-b134-4bb7-ba5e-ead8f786e0b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.4684 140.97 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6388,12 +6401,12 @@
 		(uuid "963ef0d8-b65e-4576-a888-c2aacfd63861")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 153.67 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6410,12 +6423,12 @@
 		(uuid "97fe7f17-6f21-4e16-912a-15c086da68c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 156.21 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6432,12 +6445,12 @@
 		(uuid "996c64c3-8f74-462b-858b-0a0b87caacd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.4068 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6454,12 +6467,12 @@
 		(uuid "a159ee1b-d9c8-49ef-9fe1-c13df22de174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.4094 107.95 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6476,12 +6489,12 @@
 		(uuid "a3090879-dab5-4c28-9211-dff4d1c035d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 148.59 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6498,12 +6511,12 @@
 		(uuid "a3ef9737-596e-4104-9def-eb3e6fe36b67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.426 85.09 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6520,12 +6533,12 @@
 		(uuid "a495a884-b23e-4815-87f2-096ecb421676")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 171.45 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6542,12 +6555,12 @@
 		(uuid "a7b6c64b-9247-4c32-a68b-46707fc0b66b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7214 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6564,12 +6577,12 @@
 		(uuid "af43986c-b1fe-4905-b999-2e35ca6b2c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.0582 135.89 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6586,12 +6599,12 @@
 		(uuid "af5ca8ea-7a2c-4362-b4a7-1ebf870a1ee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.0465 100.33 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6608,12 +6621,12 @@
 		(uuid "b3d28b39-8c43-4063-83c0-d8fdef193dd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.9326 125.73 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6630,12 +6643,12 @@
 		(uuid "bc46f8cf-0caa-4665-abe3-2bdb8adbb63a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7214 123.19 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6652,12 +6665,12 @@
 		(uuid "c05fee68-b96d-4db1-8525-bce71265f32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.853 92.71 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6674,12 +6687,12 @@
 		(uuid "c805d79d-6254-4196-bc5c-d9af085a9ecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.5533 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6696,12 +6709,12 @@
 		(uuid "caa8dbad-757c-4925-8a00-d4c93c5014ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.7758 95.25 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6718,12 +6731,12 @@
 		(uuid "cab2b654-e2b8-416e-ad18-96d2e1b7c7ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 166.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6740,12 +6753,12 @@
 		(uuid "cbd1562f-d6b4-45d7-ade8-3bbd1bbac6d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.1472 87.63 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6762,12 +6775,12 @@
 		(uuid "cc2b73a3-eac7-4f81-87f8-fbb187243aa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.25 147.32 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6784,12 +6797,12 @@
 		(uuid "ce025045-f5ca-4c87-a4c6-5c03cf9d489a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.4684 143.51 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6806,12 +6819,12 @@
 		(uuid "d022225a-ea2b-4419-a57e-fe8f22c735eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.6983 176.53 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6828,12 +6841,12 @@
 		(uuid "d104e891-4e6d-4525-9af2-9e1737ccd5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.5987 138.43 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6850,12 +6863,12 @@
 		(uuid "d63080cd-45f1-45cc-b95c-1a0b68bfbde3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.5533 92.71 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6872,12 +6885,12 @@
 		(uuid "d8fafc65-902b-4ea4-9423-97a5a4c82b31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.5385 110.49 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6894,12 +6907,12 @@
 		(uuid "e0c3ca5b-7455-43db-b5f7-a98e7cefc239")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.8428 82.55 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6916,12 +6929,12 @@
 		(uuid "e4515a0f-c300-4802-a6da-597bf7c7b8dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 168.91 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6938,12 +6951,12 @@
 		(uuid "ebd8b0e1-ab07-4b4a-a5d2-5f151cc2efff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.6983 179.07 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6960,12 +6973,12 @@
 		(uuid "ef0e300e-efe7-4335-86bd-a92ca6599a39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.6556 69.85 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6982,12 +6995,12 @@
 		(uuid "ef43b58c-898b-4dc6-b800-208c7acfad09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7214 120.65 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7004,12 +7017,12 @@
 		(uuid "f0a190c2-f079-481c-8e6b-071273e6f15c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.7307 146.05 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7026,12 +7039,12 @@
 		(uuid "ff76d4bc-e7d4-427b-9a50-9dceea90a023")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.6983 181.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7064,20 +7077,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 160.9852 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.02 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7132,20 +7145,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.88 128.778 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 127 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7200,20 +7213,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.04 156.718 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 154.94 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7250,11 +7263,11 @@
 		(uuid "187c9367-ab5e-40f7-8ffd-c30c1e508be9")
 		(property "Reference" "#PWR03"
 			(at 160.02 34.29 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -7267,20 +7280,20 @@
 		)
 		(property "Footprint" ""
 			(at 160.02 30.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 160.02 30.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7330,29 +7343,29 @@
 		)
 		(property "Footprint" ""
 			(at 184.15 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 184.15 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7406,20 +7419,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 51.308 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 49.53 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7475,29 +7488,29 @@
 		)
 		(property "Footprint" ""
 			(at 91.44 64.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 64.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 96.52 68.58 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "16"
@@ -7763,11 +7776,11 @@
 		(uuid "27daf332-cd5d-4403-bf1e-a21a6b65dfe5")
 		(property "Reference" "#FLG01"
 			(at 213.36 48.895 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
@@ -7780,20 +7793,20 @@
 		)
 		(property "Footprint" ""
 			(at 213.36 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 213.36 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7845,20 +7858,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 135.5852 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7911,20 +7924,20 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 182.88 76.2 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
 			(at 182.88 53.34 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7973,11 +7986,11 @@
 		(uuid "378f3b55-0b9e-4b37-97fd-51c0a48f3e74")
 		(property "Reference" "#PWR06"
 			(at 181.61 113.03 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -7990,20 +8003,20 @@
 		)
 		(property "Footprint" ""
 			(at 181.61 106.68 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 181.61 106.68 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8055,20 +8068,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 130.5052 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8123,20 +8136,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 140.6652 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.7 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8189,29 +8202,29 @@
 		)
 		(property "Footprint" ""
 			(at 49.53 48.768 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 49.53 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 49.53 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8258,20 +8271,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 145.7452 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8326,20 +8339,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 169.8752 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 55.88 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8394,20 +8407,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 150.8252 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8462,20 +8475,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 120.3452 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8531,20 +8544,20 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 181.61 92.71 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 181.61 92.71 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8615,20 +8628,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 205.74 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 205.74 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8683,20 +8696,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 155.9052 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8751,29 +8764,29 @@
 		)
 		(property "Footprint" ""
 			(at 58.1152 54.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 57.15 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 57.15 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8802,11 +8815,11 @@
 		(uuid "6ff028f9-7f4d-4332-b17c-9d7e9f7d6154")
 		(property "Reference" "#PWR09"
 			(at 200.66 133.35 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -8819,20 +8832,20 @@
 		)
 		(property "Footprint" ""
 			(at 200.66 127 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 127 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8866,11 +8879,11 @@
 		(uuid "7569e306-0f55-470a-aab2-d3caa7c88329")
 		(property "Reference" "#PWR08"
 			(at 168.91 54.61 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
@@ -8883,20 +8896,20 @@
 		)
 		(property "Footprint" ""
 			(at 168.91 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 168.91 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8946,20 +8959,20 @@
 		)
 		(property "Footprint" "SW_SKRPACE010:SW_SKRPACE010"
 			(at 193.04 121.92 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 121.92 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8996,11 +9009,11 @@
 		(uuid "7d396393-d399-47bb-b652-8571dedfb4f1")
 		(property "Reference" "#PWR066"
 			(at 38.1 74.93 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9013,20 +9026,20 @@
 		)
 		(property "Footprint" ""
 			(at 38.1 68.58 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 38.1 68.58 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9060,11 +9073,11 @@
 		(uuid "7e70a7e9-3b2b-4e05-9583-6a192f2b8c86")
 		(property "Reference" "#PWR065"
 			(at 44.45 60.96 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+1V1"
@@ -9077,20 +9090,20 @@
 		)
 		(property "Footprint" ""
 			(at 44.45 57.15 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 44.45 57.15 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9142,20 +9155,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 177.8 146.3548 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 147.32 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9193,11 +9206,11 @@
 		(uuid "80501bbb-6f56-4ffc-bab3-8fbc78caeb6d")
 		(property "Reference" "#PWR068"
 			(at 190.5 157.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9210,20 +9223,20 @@
 		)
 		(property "Footprint" ""
 			(at 190.5 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9257,11 +9270,11 @@
 		(uuid "86c13254-b6f4-4c77-942f-581b80eaa557")
 		(property "Reference" "#PWR058"
 			(at 38.1 50.8 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -9274,20 +9287,20 @@
 		)
 		(property "Footprint" ""
 			(at 38.1 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 38.1 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9339,20 +9352,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 177.8 153.9748 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 154.94 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9407,20 +9420,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 209.55 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9457,11 +9470,11 @@
 		(uuid "8b9c1cc2-b8ff-49ec-b628-8f86a2e0d6a4")
 		(property "Reference" "#PWR010"
 			(at 209.55 71.12 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9474,20 +9487,20 @@
 		)
 		(property "Footprint" ""
 			(at 209.55 64.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 209.55 64.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9521,11 +9534,11 @@
 		(uuid "90402e04-eb3c-4701-aeca-47314678128f")
 		(property "Reference" "#PWR04"
 			(at 57.15 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9538,20 +9551,20 @@
 		)
 		(property "Footprint" ""
 			(at 57.15 40.64 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 57.15 40.64 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9603,20 +9616,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 201.93 52.3748 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 198.12 53.34 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9671,20 +9684,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.4352 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9740,20 +9753,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 145.288 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 143.51 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9808,20 +9821,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.2752 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9858,11 +9871,11 @@
 		(uuid "adc68d65-4b29-4e8f-814a-649b1989c9b4")
 		(property "Reference" "#PWR067"
 			(at 177.8 157.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9875,20 +9888,20 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 151.13 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -9922,11 +9935,11 @@
 		(uuid "b88bde89-7129-444a-a9a9-684e44f13c19")
 		(property "Reference" "#PWR069"
 			(at 97.79 198.12 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -9939,20 +9952,20 @@
 		)
 		(property "Footprint" ""
 			(at 97.79 191.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 97.79 191.77 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10004,29 +10017,29 @@
 		)
 		(property "Footprint" ""
 			(at 39.0652 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 38.1 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10073,20 +10086,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 63.1952 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10123,11 +10136,11 @@
 		(uuid "bf9a4c1c-0bbb-4ffb-a587-fe7e53f6f0e1")
 		(property "Reference" "#PWR07"
 			(at 209.55 53.34 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -10140,20 +10153,20 @@
 		)
 		(property "Footprint" ""
 			(at 209.55 49.53 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 209.55 49.53 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10187,11 +10200,11 @@
 		(uuid "c613b4b3-48d5-4607-bea0-a2a376434142")
 		(property "Reference" "#PWR05"
 			(at 160.02 46.99 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -10204,20 +10217,20 @@
 		)
 		(property "Footprint" ""
 			(at 160.02 40.64 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 160.02 40.64 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10269,20 +10282,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 125.4252 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10319,11 +10332,11 @@
 		(uuid "cffebcc7-b55a-4eb0-bd1d-f137a3e08ec2")
 		(property "Reference" "#PWR01"
 			(at 181.61 82.55 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
@@ -10336,20 +10349,20 @@
 		)
 		(property "Footprint" ""
 			(at 181.61 78.74 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 181.61 78.74 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10401,20 +10414,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 172.4152 97.79 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 171.45 93.98 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10470,20 +10483,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 142.748 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 140.97 140.97 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10520,11 +10533,11 @@
 		(uuid "da90c1df-9397-43b0-ae6e-c41f28d73e86")
 		(property "Reference" "#PWR011"
 			(at 170.18 162.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -10537,20 +10550,20 @@
 		)
 		(property "Footprint" ""
 			(at 170.18 156.21 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 156.21 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10584,11 +10597,11 @@
 		(uuid "eabc74ab-cf29-449e-9ffa-b438edcb192a")
 		(property "Reference" "#PWR02"
 			(at 57.15 34.29 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+1V1"
@@ -10601,20 +10614,20 @@
 		)
 		(property "Footprint" ""
 			(at 57.15 30.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 57.15 30.48 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10664,29 +10677,29 @@
 		)
 		(property "Footprint" ""
 			(at 52.07 60.96 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 52.07 60.96 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 52.07 60.96 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10733,20 +10746,20 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 58.1152 39.37 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 57.15 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -10801,29 +10814,29 @@
 		)
 		(property "Footprint" ""
 			(at 45.4152 67.31 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 44.45 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 44.45 63.5 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10871,20 +10884,20 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 53.848 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 52.07 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
