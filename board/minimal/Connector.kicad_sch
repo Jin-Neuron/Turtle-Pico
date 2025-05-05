@@ -2648,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 130.81) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203f07bb-2d17-4c26-9517-a1951e81a1f4")
+	)
+	(wire
+		(pts
 			(xy 194.31 119.38) (xy 194.31 87.63)
 		)
 		(stroke
@@ -5307,6 +5317,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae9cd41c-772f-413e-aaa3-543476e40000")
+		(property "Reference" "#PWR080"
+			(at 153.67 138.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54713488-b854-48ce-afdb-e192282a20f5")
+		)
+		(instances
+			(project "TurtlePico-Minimal"
+				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/42224473-68eb-43d4-97ed-5df85a0a50dc"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 127 91.44 0)
 		(unit 1)
@@ -5435,6 +5509,72 @@
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/42224473-68eb-43d4-97ed-5df85a0a50dc"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 153.67 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd0c97b-9ce7-4118-a440-747c53b33541")
+		(property "Reference" "TP7"
+			(at 152.654 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.734 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 153.67 135.89 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 135.89 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 130.81 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bb1bf6e-7f55-44e6-820a-95b5f37df9bb")
+		)
+		(instances
+			(project "TurtlePico-Minimal"
+				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/42224473-68eb-43d4-97ed-5df85a0a50dc"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
