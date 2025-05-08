@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "3")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "5")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "8")
 				)
@@ -166,7 +166,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "6")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "9")
 				)
@@ -250,7 +250,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "2")
 				)
@@ -292,7 +292,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "4")
 				)
@@ -334,7 +334,7 @@
 			)
 		)
 		(instances
-			(project "TurtlePico-Minimal"
+			(project "TurtlePico-Leatherback"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3"
 					(page "7")
 				)

@@ -1878,7 +1878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "187023c2-0133-457d-9ae7-d3c6627db8bc")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 140.97 100.33 0)
 			(hide yes)
 			(effects
@@ -1927,7 +1927,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dda9e2e-7d43-45bb-b3c5-8490e22d5313")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 151.13 123.19 0)
 			(hide yes)
 			(effects
@@ -1991,7 +1991,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21611d71-6814-4ad7-aad4-d827c0215219")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 106.68 120.65 0)
 			(hide yes)
 			(effects
@@ -2055,7 +2055,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375fff99-48fe-4f4e-87a1-5a14447aaf99")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(effects
@@ -2261,7 +2261,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58d2bf6b-1906-419e-b227-b5f85ae173cf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 168.91 123.19 0)
 			(hide yes)
 			(effects
@@ -2604,7 +2604,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bf46914-a642-47aa-a317-27cc0f3548cd")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 167.64 76.2 0)
 			(hide yes)
 			(effects
@@ -2668,7 +2668,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/30a58c44-3c8a-4ad6-a7be-85fee873ce7a"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

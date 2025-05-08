@@ -1327,12 +1327,6 @@
 		(uuid "458955d5-a543-4450-b378-aab1f4b85e6a")
 	)
 	(junction
-		(at 144.78 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "480abaaa-7feb-43a4-a757-2a5eff46218c")
-	)
-	(junction
 		(at 140.97 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1357,22 +1351,16 @@
 		(uuid "6f6de329-db17-4aa1-99c5-ae187b828d43")
 	)
 	(junction
+		(at 144.78 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e3083e1-6341-4f85-9b30-a638ac775ea7")
+	)
+	(junction
 		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed069e2-541d-43a6-a95b-e3e0c0c084c1")
-	)
-	(junction
-		(at 144.78 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a004145a-b474-4edd-a187-89e6a6c755b6")
-	)
-	(junction
-		(at 139.7 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4164da5-6061-4eff-9e09-f95553459ba7")
 	)
 	(junction
 		(at 114.3 121.92)
@@ -1391,6 +1379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7210dc3-4211-4a02-ad75-88b39e201121")
+	)
+	(junction
+		(at 139.7 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f14c2237-b2b2-46b6-bc80-6832c2107c29")
 	)
 	(junction
 		(at 102.87 109.22)
@@ -1440,23 +1434,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 121.92)
+			(xy 148.59 107.95) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c6f2f8f-4892-4672-9f70-121a943c58fc")
+		(uuid "068834f8-0507-469b-a909-03ea6be7ce2d")
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 148.59 106.68)
+			(xy 144.78 107.95) (xy 144.78 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dbeaa36-6574-47b5-b2f6-369b984699e1")
+		(uuid "175e28a8-6859-45cc-b816-2583de50ac1e")
 	)
 	(wire
 		(pts
@@ -1530,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 106.68)
+			(xy 148.59 93.98) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1547,16 +1541,6 @@
 			(type default)
 		)
 		(uuid "529d356e-42ba-49cf-9300-ef3daecb1563")
-	)
-	(wire
-		(pts
-			(xy 144.78 99.06) (xy 149.86 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb7d53e-426d-4902-aff5-d713566c54db")
 	)
 	(wire
 		(pts
@@ -1630,7 +1614,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 144.78 106.68)
+			(xy 139.7 100.33) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ae56d9-0c2a-4353-8ff2-3db25f694a0b")
+	)
+	(wire
+		(pts
+			(xy 139.7 107.95) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1697,16 +1691,6 @@
 			(type default)
 		)
 		(uuid "95b175dd-c3c7-4e9d-8c90-510d2ec33011")
-	)
-	(wire
-		(pts
-			(xy 139.7 99.06) (xy 144.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c646350-c0ae-4d84-8ea3-ba5a2ee152ec")
 	)
 	(wire
 		(pts
@@ -1810,6 +1794,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cd1a3c-0ac7-4141-a076-d28e11d6c711")
+	)
+	(wire
+		(pts
 			(xy 101.6 111.76) (xy 104.14 111.76)
 		)
 		(stroke
@@ -1910,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 144.78 99.06)
+			(xy 144.78 96.52) (xy 144.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2098,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc0fe16-9406-4619-9f8f-918142343680")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 177.8 102.87 0)
 			(hide yes)
 			(effects
@@ -2147,7 +2141,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f0afef7-0586-48fb-b1e7-b17526a4ba45")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 135.89 94.615 90)
 			(effects
 				(font
@@ -2178,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.89 98.298 90)
 			(hide yes)
 			(effects
@@ -2249,7 +2243,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2257,7 +2251,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 102.87 0)
+		(at 144.78 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2265,7 +2259,7 @@
 		(dnp no)
 		(uuid "360677fd-e522-4351-96ed-2ab85f4b1c39")
 		(property "Reference" "C40"
-			(at 142.24 100.965 0)
+			(at 142.24 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2268,7 @@
 			)
 		)
 		(property "Value" "0.01µ"
-			(at 142.875 104.775 0)
+			(at 142.875 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2277,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 145.7452 106.68 0)
+			(at 145.7452 107.95 0)
 			(hide yes)
 			(effects
 				(font
@@ -2292,7 +2286,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71H103KA37_01C-3144181.pdf"
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2301,7 +2295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2303,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2318,7 +2312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM188R71H103KA37J"
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2327,7 +2321,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GCM188R71H103KA7J"
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2336,7 +2330,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71H103KA7J"
-			(at 144.78 102.87 0)
+			(at 144.78 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2569,7 +2563,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 102.87 0)
+		(at 139.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +2571,7 @@
 		(dnp no)
 		(uuid "686c6818-9444-42be-9024-1e01c3e03d83")
 		(property "Reference" "C38"
-			(at 137.16 100.965 0)
+			(at 137.16 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2580,7 @@
 			)
 		)
 		(property "Value" "0.01µ"
-			(at 136.525 104.775 0)
+			(at 136.525 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 140.6652 106.68 0)
+			(at 140.6652 107.95 0)
 			(hide yes)
 			(effects
 				(font
@@ -2604,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71H103KA37_01C-3144181.pdf"
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2613,7 +2607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2615,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2630,7 +2624,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM188R71H103KA37J"
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2639,7 +2633,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GCM188R71H103KA7J"
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2648,7 +2642,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71H103KA7J"
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(hide yes)
 			(effects
 				(font
@@ -2681,7 +2675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a93283-d02a-4096-90ff-9d8b7fafd195")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 119.38 91.44 0)
 			(hide yes)
 			(effects
@@ -2730,7 +2724,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2745,7 +2739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9095e398-3f20-441d-b607-0cecd30e24ca")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 177.8 115.57 0)
 			(hide yes)
 			(effects
@@ -2794,7 +2788,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeb9ef22-66b3-402b-b6ad-d2577f233318")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 144.78 128.27 0)
 			(hide yes)
 			(effects
@@ -3016,7 +3010,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3135,7 +3129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2bc143e-10f0-475d-8c53-9b5f74840648")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 134.62 100.965 90)
 			(effects
 				(font
@@ -3151,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.62 100.838 90)
 			(hide yes)
 			(effects
@@ -3222,7 +3216,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3553,7 +3547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ea150b-4418-49c2-9649-7f9910e04ee4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 102.87 128.27 0)
 			(hide yes)
 			(effects
@@ -3602,7 +3596,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
