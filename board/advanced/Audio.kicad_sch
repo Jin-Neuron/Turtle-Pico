@@ -1987,7 +1987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "000f7f07-db60-4ee0-be7a-4fd2681d12df")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 128.27 103.505 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 131.7752 109.22 0)
 			(hide yes)
 			(effects
@@ -2076,7 +2076,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc0fe16-9406-4619-9f8f-918142343680")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR058"
 			(at 177.8 102.87 0)
 			(hide yes)
 			(effects
@@ -2141,7 +2141,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR063")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 135.89 98.298 90)
 			(hide yes)
 			(effects
@@ -2258,7 +2258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "360677fd-e522-4351-96ed-2ab85f4b1c39")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 142.24 102.235 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 145.7452 107.95 0)
 			(hide yes)
 			(effects
@@ -2347,7 +2347,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2362,7 +2362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0b9306-131a-4191-97ad-ec0c1e315a74")
-		(property "Reference" "C42"
+		(property "Reference" "C43"
 			(at 177.8 102.235 0)
 			(effects
 				(font
@@ -2451,7 +2451,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64526e1c-7b74-453f-86fd-ccbdb09995d5")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 141.605 116.205 0)
 			(effects
 				(font
@@ -2555,7 +2555,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "686c6818-9444-42be-9024-1e01c3e03d83")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 137.16 102.235 0)
 			(effects
 				(font
@@ -2588,7 +2588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 140.6652 107.95 0)
 			(hide yes)
 			(effects
@@ -2659,7 +2659,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2675,7 +2675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a93283-d02a-4096-90ff-9d8b7fafd195")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR056"
 			(at 119.38 91.44 0)
 			(hide yes)
 			(effects
@@ -2724,7 +2724,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR061")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9095e398-3f20-441d-b607-0cecd30e24ca")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR059"
 			(at 177.8 115.57 0)
 			(hide yes)
 			(effects
@@ -2788,7 +2788,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR064")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeb9ef22-66b3-402b-b6ad-d2577f233318")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR057"
 			(at 144.78 128.27 0)
 			(hide yes)
 			(effects
@@ -3010,7 +3010,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR062")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afb3d344-756f-40b7-8a05-09c9a17678ac")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 171.45 102.235 0)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 134.62 100.838 90)
 			(hide yes)
 			(effects
@@ -3231,7 +3231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcf65e0e-6f1d-4241-890e-5673c39ff2ed")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 184.15 102.235 0)
 			(effects
 				(font
@@ -3320,7 +3320,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd4e7834-553c-4692-8ea3-191d3aa75981")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 133.35 118.11 90)
 			(effects
 				(font
@@ -3353,7 +3353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
 			(at 138.43 115.8748 0)
 			(hide yes)
 			(effects
@@ -3424,7 +3424,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ea150b-4418-49c2-9649-7f9910e04ee4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR055"
 			(at 102.87 128.27 0)
 			(hide yes)
 			(effects
@@ -3596,7 +3596,7 @@
 		(instances
 			(project "TurtlePico-Minimal"
 				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/c005a3df-ded2-48f6-91de-22e6372e232d"
-					(reference "#PWR060")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

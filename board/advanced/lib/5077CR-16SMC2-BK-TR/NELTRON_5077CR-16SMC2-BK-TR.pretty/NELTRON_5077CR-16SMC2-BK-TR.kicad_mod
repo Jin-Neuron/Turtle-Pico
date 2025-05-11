@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -1.895 -4.955 0)
 		(layer "F.SilkS")
-		(uuid "8e5d345d-340c-45b1-9673-d2c8fb9b0a20")
+		(uuid "23e98382-33e3-455d-9bc2-03560ed2f33f")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "NELTRON_5077CR-16SMC2-BK-TR"
 		(at 12.075 -3.455 0)
 		(layer "F.Fab")
-		(uuid "d7a67eb1-fd57-4d66-a495-8ab5fff677d2")
+		(uuid "dd49dbf6-f49e-421f-895b-7971ea1052d7")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25dcd248-ca12-47a8-a0a5-bea4631528fb")
+		(uuid "835cce3d-54d0-436e-89ab-fee67cc3f802")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c6a9dc63-0e18-4a39-9691-ee16c5a02b2b")
+		(uuid "e915091b-35c3-4f0f-a0cb-4b1d5d125ea5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -245,8 +245,8 @@
 		(uuid "cb7830ec-ad55-4852-a674-7edc9b16b1a3")
 	)
 	(pad "A1" smd rect
-		(at -3.2 -1.065)
-		(size 0.6 1.15)
+		(at -3.1978 -1.1248)
+		(size 0.6044 1.0304)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(tenting
 			(front none)
@@ -255,8 +255,8 @@
 		(uuid "41120b49-fcee-4e0e-9a19-c4b6719f61f3")
 	)
 	(pad "A4" smd rect
-		(at -2.4 -1.065)
-		(size 0.6 1.15)
+		(at -2.3962 -1.1248)
+		(size 0.5924 1.0304)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(tenting
 			(front none)
@@ -305,8 +305,8 @@
 		(uuid "4548eb76-5750-4112-a7f9-e369dced3f8d")
 	)
 	(pad "B1" smd rect
-		(at 3.2 -1.065)
-		(size 0.6 1.15)
+		(at 3.2 -1.1248)
+		(size 0.6 1.0304)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(tenting
 			(front none)
@@ -315,8 +315,8 @@
 		(uuid "e8a9526a-c8d6-496c-b14c-9752854a01e6")
 	)
 	(pad "B4" smd rect
-		(at 2.4 -1.065)
-		(size 0.6 1.15)
+		(at 2.4 -1.1248)
+		(size 0.6 1.0304)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(tenting
 			(front none)
