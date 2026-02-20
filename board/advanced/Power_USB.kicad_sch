@@ -2549,6 +2549,12 @@
 		(uuid "16d596f9-ad5c-4949-9eff-dd8695b26e61")
 	)
 	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34a5285f-5ae2-4272-a5e9-d37645a1b894")
+	)
+	(junction
 		(at 149.86 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2577,12 +2583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6af68fad-0b66-42aa-8736-076cd5eb6a09")
-	)
-	(junction
-		(at 172.72 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75addfdd-5938-443a-9cad-ed3814760882")
 	)
 	(junction
 		(at 177.8 71.12)
@@ -3577,6 +3577,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ103X"
+			(at 219.71 83.82 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ103X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ2795zeLty6u68%3D"
+			(at 219.71 83.82 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14f259ab-3a07-41c4-be96-e8ed4de0d023")
 		)
@@ -3640,6 +3658,24 @@
 		)
 		(property "Description" ""
 			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP6050SSD-13"
+			(at 143.51 125.73 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Diodes-Incorporated/DMP6050SSD-13?qs=AsTZqt%2FmeqkKAux%2F8UUx%252BA%3D%3D"
+			(at 143.51 125.73 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,6 +3826,24 @@
 		)
 		(property "Description" ""
 			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 161.29 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 161.29 74.93 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,6 +4207,24 @@
 		)
 		(property "Description" ""
 			(at 156.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP6050SSD-13"
+			(at 156.21 125.73 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Diodes-Incorporated/DMP6050SSD-13?qs=AsTZqt%2FmeqkKAux%2F8UUx%252BA%3D%3D"
+			(at 156.21 125.73 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 167.64 77.47 90)
 			(effects
 				(font
@@ -4624,6 +4696,24 @@
 		)
 		(property "Description" ""
 			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
+			(at 167.64 80.01 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,6 +4852,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155C81C105KE1D"
+			(at 166.37 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155C81C105KE11D?qs=hNud%2FORuBR1%252BrAX3RD4bmg%3D%3D"
+			(at 166.37 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "526a4637-7597-4971-b573-f1e5450eb89e")
 		)
@@ -4779,7 +4887,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 80.01 180)
+		(at 172.72 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4787,7 +4895,7 @@
 		(dnp no)
 		(uuid "ab5a5cd3-492b-48aa-8e0e-5a7edced1311")
 		(property "Reference" "R16"
-			(at 170.688 77.978 90)
+			(at 170.688 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,6 +4904,92 @@
 			)
 		)
 		(property "Value" "10k"
+			(at 172.72 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
+			(at 174.498 69.85 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 69.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ103X"
+			(at 172.72 69.85 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ103X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ2795zeLty6u68%3D"
+			(at 172.72 69.85 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0d8493a-dfbc-49e5-b19c-8010caaf92c4")
+		)
+		(pin "1"
+			(uuid "4c92013a-c1d6-48e6-9065-2b1927790fac")
+		)
+		(instances
+			(project "TurtlePico-Leatherback"
+				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/7936705e-854a-4784-9724-997ebf4458ae"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b270b62a-5b86-456f-b4fc-4c4b6a238250")
+		(property "Reference" "R15"
+			(at 170.688 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
 			(at 172.72 77.47 90)
 			(effects
 				(font
@@ -4830,50 +5024,8 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d0d8493a-dfbc-49e5-b19c-8010caaf92c4")
-		)
-		(pin "1"
-			(uuid "4c92013a-c1d6-48e6-9065-2b1927790fac")
-		)
-		(instances
-			(project "TurtlePico-Leatherback"
-				(path "/7af2d99d-e350-48e7-86b4-20911ea922f3/7936705e-854a-4784-9724-997ebf4458ae"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b270b62a-5b86-456f-b4fc-4c4b6a238250")
-		(property "Reference" "R15"
-			(at 170.688 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 172.72 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "C_0402_1005Metric_small_pads:C_0402_1005Metric_small_pads"
-			(at 174.498 69.85 90)
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
+			(at 172.72 80.01 90)
 			(hide yes)
 			(effects
 				(font
@@ -4881,17 +5033,9 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 69.85 0)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
+			(at 172.72 80.01 90)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,6 +5104,24 @@
 		)
 		(property "Description" ""
 			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2RKF1003X"
+			(at 149.86 127 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1003X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27ZD120uuUgek%3D"
+			(at 149.86 127 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 167.64 67.31 90)
 			(effects
 				(font
@@ -5095,6 +5257,24 @@
 		)
 		(property "Description" ""
 			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
+			(at 167.64 69.85 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
+			(at 167.64 69.85 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,6 +5479,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ102X"
+			(at 161.29 130.81 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ102X?qs=sGAEpiMZZMtG0KNrPCHnjSOOg5ypiLdnrFEbXWcegG4%3D"
+			(at 161.29 130.81 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa4db0d7-41d0-481b-b89b-382d7ec16118")
 		)
@@ -5361,6 +5559,24 @@
 		)
 		(property "Description" ""
 			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 177.8 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 177.8 62.23 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,6 +5721,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15D81C475ME15J"
+			(at 149.86 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155D81C475ME15J?qs=By6Nw2ByBD1p3LeFo%252Bi9yQ%3D%3D"
+			(at 149.86 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3d5410b-12d2-44f6-ba80-41c5f7e97e05")
 		)
@@ -5632,6 +5866,24 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+			(at 196.85 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "727-CYPD3177-24LQXQ"
+			(at 196.85 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Infineon-Technologies/CYPD3177-24LQXQ?qs=PzGy0jfpSMvR3aDH5AdWfA%3D%3D"
 			(at 196.85 81.28 0)
 			(hide yes)
 			(effects

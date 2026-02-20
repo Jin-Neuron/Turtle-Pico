@@ -1,13 +1,12 @@
-from machine import Pin, SPI
+from machine import Pin, SoftSPI
 import machine
 import os
 from lib.sdcard import SDCard
-from lib.TurtlePico import TurtlePico
+from lib.TurtlePico import Leatherback as TurtlePico
 
 cs = Pin(TurtlePico.SD_CS)
 
-spi = SPI( TurtlePico.SPI_ID,
-           baudrate = 100000,
+spi = SoftSPI(baudrate = 100000,
            sck  = machine.Pin(TurtlePico.SPI_SCK),
            mosi = machine.Pin(TurtlePico.SPI_MOSI),
            miso = machine.Pin(TurtlePico.SPI_MISO))

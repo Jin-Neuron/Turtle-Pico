@@ -2342,7 +2342,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/757-2SC4213-ATE85LF"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Toshiba/2SC4213-ATE85LF?qs=vnMp2KDihub2h7dVJUge2w%3D%3D"
 			(at 142.24 114.3 0)
 			(hide yes)
 			(effects
@@ -2580,7 +2580,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/757-2SC4213-ATE85LF"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Toshiba/2SC4213-ATE85LF?qs=vnMp2KDihub2h7dVJUge2w%3D%3D"
 			(at 124.46 114.3 0)
 			(hide yes)
 			(effects
@@ -2742,7 +2742,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73H1JT5102F100"
+		(property "Mouser Part Number" "667-ERJ-2GEJ102X"
 			(at 118.11 119.38 0)
 			(hide yes)
 			(effects
@@ -2751,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/660-RN73H1JT5102F100"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ102X?qs=sGAEpiMZZMtG0KNrPCHnjSOOg5ypiLdnrFEbXWcegG4%3D"
 			(at 118.11 119.38 0)
 			(hide yes)
 			(effects
@@ -2820,6 +2820,24 @@
 		)
 		(property "Description" ""
 			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "755-SML-D12V8WT86"
+			(at 114.3 109.22 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=sGAEpiMZZMvVL5Kk7ZYykVdSwGyztViF8nbP2%252BAo1so%3D"
+			(at 114.3 109.22 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,6 +2978,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "688-SKRPACE010"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d59e7a47-698c-4e69-a19b-df157372c633")
 		)
@@ -3046,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73H1JT5102F100"
+		(property "Mouser Part Number" "667-ERJ-2GEJ102X"
 			(at 133.35 115.57 0)
 			(hide yes)
 			(effects
@@ -3055,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/660-RN73H1JT5102F100"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ102X?qs=sGAEpiMZZMtG0KNrPCHnjSOOg5ypiLdnrFEbXWcegG4%3D"
 			(at 133.35 115.57 0)
 			(hide yes)
 			(effects
@@ -3216,6 +3252,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "688-SKRPACE010"
+			(at 167.64 100.33 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
+			(at 167.64 100.33 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b04f639-3deb-4116-a913-2507765d1d63")
 		)
@@ -3249,7 +3303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 119.38 107.95 90)
 			(effects
 				(font
@@ -3302,7 +3356,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73H1JT5102F100"
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
 			(at 119.38 109.22 0)
 			(hide yes)
 			(effects
@@ -3311,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/660-RN73H1JT5102F100"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
 			(at 119.38 109.22 0)
 			(hide yes)
 			(effects
@@ -3622,7 +3676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7k"
 			(at 137.16 107.95 90)
 			(effects
 				(font
@@ -3675,7 +3729,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73H1JT5102F100"
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(effects
@@ -3684,7 +3738,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/660-RN73H1JT5102F100"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(effects
@@ -3753,6 +3807,24 @@
 		)
 		(property "Description" ""
 			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "755-SML-D12M8WT86"
+			(at 133.35 106.68 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/ROHM-Semiconductor/SML-D12M8WT86?qs=sGAEpiMZZMvVL5Kk7ZYykVdSwGyztViFSeegmzgd8%2FM%3D"
+			(at 133.35 106.68 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -32,7 +32,7 @@ display = lib.SSD1306_I2C(128, 64, i2c)
 #スクリーンオブジェクト
 menu = lib.screens.menu(display)
 cl = lib.screens.clock(display)
-wt = lib.screens.weather(display)
+#wt = lib.screens.weather(display)
 sc = menu
 
 #WiFiに接続
