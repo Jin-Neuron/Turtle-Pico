@@ -1,12 +1,11 @@
 import time
 from machine import Pin
-from lib.TurtlePico import TurtlePico
 
 #ピンを設定
-trig = Pin(TurtlePico.TRIG_TX, Pin.OUT)
-echo = Pin(TurtlePico.ECHO_RX, Pin.IN)
-red = Pin(TurtlePico.LED_L, Pin.OUT)
-blue = Pin(TurtlePico.LED_R, Pin.OUT)
+trig = Pin("TRIG_TX", Pin.OUT)
+echo = Pin("ECHO_RX", Pin.IN)
+red = Pin("LED_L", Pin.OUT)
+blue = Pin("LED_R", Pin.OUT)
 
 while True:
     trig.low()
