@@ -1,19 +1,30 @@
 from machine import Pin
 import time
-from lib.TurtlePico import Leatherback
 
-enable_right = Pin(Leatherback.MOTOR_ENR, Pin.OUT)
-enable_left = Pin(Leatherback.MOTOR_ENL, Pin.OUT)
-left = Pin(Leatherback.MOTOR_L, Pin.OUT)
-right = Pin(Leatherback.MOTOR_R, Pin.OUT)
+# Leatherback motor enable pin is each for left and right, but TurtlePico has one motor enable pin.
 
-led_r = Pin(Leatherback.LED_R, Pin.OUT)
-led_l = Pin(Leatherback.LED_L, Pin.OUT)
+# for Leatherback model
+#enable_right = Pin("MOTOR_ENR", Pin.OUT)
+#enable_left = Pin("MOTOR_ENL", Pin.OUT)
+
+# for TurtlePico model
+enable = Pin("MOTOR_EN", Pin.OUT)
+
+left = Pin("MOTOR_L", Pin.OUT)
+right = Pin("MOTOR_R", Pin.OUT)
+
+led_r = Pin("LED_R", Pin.OUT)
+led_l = Pin("LED_L", Pin.OUT)
 
 while True:
 
-    enable_right.value(1)
-    enable_left.value(1)
+    # for Leatherback model
+    # enable_right.value(1)
+    # enable_left.value(1)
+
+    # for TurtlePico model
+    enable.value(1)
+    
     led_r.value(1)
     led_l.value(1)
     left.value(1)
@@ -42,8 +53,13 @@ while True:
     print("backward")
 
     time.sleep(5)
-    enable_right.value(0)
-    enable_left.value(0)
+    # for Leatherback model
+    # enable_right.value(0)
+    # enable_left.value(0)
+
+    # for TurtlePico model
+    enable.value(0)
+    
     led_l.value(0)
     led_r.value(1)
     time.sleep(1)

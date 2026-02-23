@@ -1,33 +1,44 @@
 import time
 import st7789
+#for 240x320 display, use tft_config_240x320
+#import tft_config_240x320 as tft_config
+#for 172x320 display, use tft_config_172x320
 import tft_config
 from machine import Pin, PWM
-from lib.TurtlePico import Leatherback
 
-servo_rr = PWM(Leatherback.ESC_SERVO_RR)
+servo_rr = PWM("ESC_SERVO_RR")
 servo_rr.freq(50)
 
 max_duty = 65025
 dig_min = 0.025   #-90°
 dig_max = 0.12     #90°
 
-led_r = Pin(Leatherback.LED_R, Pin.OUT)
-led_l = Pin(Leatherback.LED_L, Pin.OUT)
+led_r = Pin("LED_R", Pin.OUT)
+led_l = Pin("LED_L", Pin.OUT)
 
 led_r.value(1)
 led_l.value(1)
 
-motor_len = Pin(Leatherback.MOTOR_ENL, Pin.OUT)
-motor_l = Pin(Leatherback.MOTOR_L, Pin.OUT)
-motor_ren = Pin(Leatherback.MOTOR_ENR, Pin.OUT)
-motor_r = Pin(Leatherback.MOTOR_R, Pin.OUT)
+# Leatherback motor enable pin is each for left and right, but TurtlePico has one motor enable pin.
 
-trig = Pin(Leatherback.TRIG_TX, Pin.OUT)
-echo = Pin(Leatherback.ECHO_RX, Pin.IN)
+# for Leatherback model
+#motor_len = Pin("MOTOR_ENL", Pin.OUT)
+#motor_ren = Pin("MOTOR_ENR", Pin.OUT)
+# for TurtlePico model
+enable = Pin("MOTOR_EN", Pin.OUT)
+
+motor_l = Pin("MOTOR_L", Pin.OUT)
+motor_r = Pin("MOTOR_R", Pin.OUT)
+
+trig = Pin("TRIG_TX", Pin.OUT)
+echo = Pin("ECHO_RX", Pin.IN)
 
 MotorStatus_R = 0
 MotorStatus_L = 0
 
+# for 240x320 display
+#tft = tft_config.config(rotation=3)
+# for 172x320 display
 tft = tft_config.config(rotation=3)
 tft.init()
 
@@ -55,9 +66,14 @@ motor_r.value(0)
 
 time.sleep(2)
 
+print("Start")
+
 while True:
-    motor_len.value(0)
-    motor_ren.value(0)
+    # for Leatherback model
+    # motor_len.value(0)
+    # motor_ren.value(0)
+    # for TurtlePico model
+    enable.value(0)
 
     while True:
         trig.low()
