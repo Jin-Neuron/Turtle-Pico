@@ -33,7 +33,7 @@ fp-info-cache
 # Exported BOM files
 *.xlsx
 *.xml
-*.csv
+board/**/*.csv
 
 # latex
 ## Core latex/pdflatex auxiliary files:
