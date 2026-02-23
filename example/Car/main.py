@@ -1,8 +1,5 @@
 import time
 import st7789
-#for 240x320 display, use tft_config_240x320
-#import tft_config_240x320 as tft_config
-#for 172x320 display, use tft_config_172x320
 import tft_config
 from machine import Pin, PWM
 
@@ -36,9 +33,6 @@ echo = Pin("ECHO_RX", Pin.IN)
 MotorStatus_R = 0
 MotorStatus_L = 0
 
-# for 240x320 display
-#tft = tft_config.config(rotation=3)
-# for 172x320 display
 tft = tft_config.config(rotation=3)
 tft.init()
 
