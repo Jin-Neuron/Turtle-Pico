@@ -8,28 +8,28 @@ import framebuf
 import network
 import ubinascii
 from lib.umqtt.simple import MQTTClient
-from lib.TurtlePico import TurtlePico
+from wifi_config import wifi_config
 
 #spi設定
-spi = SPI( TurtlePico.SPI_ID, baudrate = 100000, sck = Pin(10), mosi = Pin(11))
+spi = SPI( 1, baudrate = 100000, sck = Pin("SPI_SCK"), mosi = Pin("SPI_MOSI"))
 
 #mqtt設定
 iot_core_endpoint = 'endpoint'
 topic = 'topic'
 
 #Wi-Fi設定
-ssid = 'Kenshyu62'
-password = 'PW'
+ssid = wifi_config.ssid
+password = wifi_config.pw
 
 #pin設定
-oled_cs = Pin(TurtlePico.OLED_CS,Pin.OUT)
-dc = Pin(TurtlePico.OLED_DC,Pin.OUT)
-rst = Pin(TurtlePico.OLED_RST,Pin.OUT)
-enable = Pin(TurtlePico.MOTOR_EN, Pin.OUT)
-left = Pin(TurtlePico.MOTOR_L, Pin.OUT)
-right = Pin(TurtlePico.MOTOR_R, Pin.OUT)
-red = Pin(TurtlePico.LED_L, Pin.OUT)
-blue = Pin(TurtlePico.LED_R, Pin.OUT)
+oled_cs = Pin("LCD_CS",Pin.OUT)
+dc = Pin("LCD_DC",Pin.OUT)
+rst = Pin("LCD_RST",Pin.OUT)
+enable = Pin("MOTOR_EN", Pin.OUT)
+left = Pin("MOTOR_L", Pin.OUT)
+right = Pin("MOTOR_R", Pin.OUT)
+red = Pin("LED_L", Pin.OUT)
+blue = Pin("LED_R", Pin.OUT)
 
 display = SSD1306_SPI(128, 64, spi, dc, rst, oled_cs)
 fb = framebuf.FrameBuffer(img_lib.techring, 74, 64, framebuf.MONO_HLSB)
