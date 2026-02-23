@@ -2,7 +2,7 @@
 #define MICROPY_HW_BOARD_NAME "TurtlePico Leatherback model"
 #define PICO_FLASH_SIZE_BYTES (16 * 1024 * 1024)
 #define MICROPY_HW_FLASH_STORAGE_BYTES (PICO_FLASH_SIZE_BYTES - (2 * 1024 * 1024))
-#define MICROPY_HW_MCU_NAME "RP2350B"
+#define MICROPY_HW_MCU_NAME "RP2350"
 
 // I2Cのデフォルト設定
 #define MICROPY_HW_I2C0_SCL             (15)

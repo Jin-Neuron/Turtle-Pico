@@ -44,7 +44,13 @@
 #ifndef PICO_DEFAULT_SPI_RX_PIN
 #define PICO_DEFAULT_SPI_RX_PIN 12
 #endif
+// default cs -> LCD CS
+#ifndef PICO_DEFAULT_SPI_CSN_PIN
+#define PICO_DEFAULT_SPI_CSN_PIN 7
+#endif
 
+// Flash configuration
+#define PICO_BOOT_STAGE2_CHOOSE_W25Q080 1
 
 #ifndef PICO_FLASH_SPI_CLKDIV
 #define PICO_FLASH_SPI_CLKDIV 2
