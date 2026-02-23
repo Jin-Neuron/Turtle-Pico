@@ -3,17 +3,15 @@ import st7789
 import math
 import tft_config
 from machine import Pin, PWM
-from lib.TurtlePico import Leatherback
 from lib.bno08x import *
 from lib.bno08x_i2c import BNO08X_I2C
-from lib.TurtlePico import Leatherback
 from machine import I2C, Pin
 import time 
 import vga1_8x8 as font
 import vga2_bold_16x32 as font2
 
 I2C_ADDR = 0x4a
-i2c = I2C(Leatherback.I2C_ID, scl=Pin(Leatherback.I2C_SCL), sda=Pin(Leatherback.I2C_SDA), freq=400_000)
+i2c = I2C(1, scl=Pin("I2C_SCL"), sda=Pin("I2C_SDA"), freq=400_000)
 
 bno = BNO08X_I2C(i2c, address=I2C_ADDR)
 

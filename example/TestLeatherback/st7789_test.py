@@ -2,11 +2,10 @@ import time
 import st7789
 import tft_config
 from machine import Pin, PWM
-from lib.TurtlePico import Leatherback
 import vga2_bold_16x32 as font
 
-led_r = Pin(Leatherback.LED_R, Pin.OUT)
-led_l = Pin(Leatherback.LED_L, Pin.OUT)
+led_r = Pin("LED_R", Pin.OUT)
+led_l = Pin("LED_L", Pin.OUT)
 
 tft = tft_config.config(rotation=3)
 tft.init()

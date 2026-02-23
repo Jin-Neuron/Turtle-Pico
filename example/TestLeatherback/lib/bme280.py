@@ -6,8 +6,8 @@ class Bme_280:
     digP = []
     digH = []
     t_fine = 0.0
-    def __init__(self, id1=0,scl_pin = 1,sda_pin = 0):
-        self.i2c = I2C(id1,scl=Pin(scl_pin),sda=Pin(sda_pin),freq=400000)
+    def __init__(self, id1=0,scl_pin = Pin(1),sda_pin = Pin(0)):
+        self.i2c = I2C(id1,scl=scl_pin,sda=sda_pin,freq=400000)
         self.int280()
         self.get_calib_param()
     def int280(self):
