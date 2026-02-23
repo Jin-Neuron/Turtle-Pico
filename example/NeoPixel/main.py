@@ -2,20 +2,19 @@ import time
 from machine import Pin
 from machine import PWM
 import neopixel
-from lib.TurtlePico import TurtlePico
 
 pixelNum = 15
 
 #ピンを設定
-trig = Pin(TurtlePico.TRIG_TX, Pin.OUT)
-echo = Pin(TurtlePico.ECHO_RX, Pin.IN)
+trig = Pin("TRIG_TX", Pin.OUT)
+echo = Pin("ECHO_RX", Pin.IN)
 
-np3 = neopixel.NeoPixel(Pin(TurtlePico.ESC_SERVO_RR), pixelNum)
-np2 = neopixel.NeoPixel(Pin(TurtlePico.ESC_SERVO_FR), pixelNum)
-np1 = neopixel.NeoPixel(Pin(TurtlePico.ESC_SERVO_FL), pixelNum)
+np3 = neopixel.NeoPixel(Pin("ESC_SERVO_RR"), pixelNum)
+np2 = neopixel.NeoPixel(Pin("ESC_SERVO_FR"), pixelNum)
+np1 = neopixel.NeoPixel(Pin("ESC_SERVO_FL"), pixelNum)
 
-red = Pin(TurtlePico.LED_L, Pin.OUT)
-blue = Pin(TurtlePico.LED_R, Pin.OUT)
+red = Pin("LED_L", Pin.OUT)
+blue = Pin("LED_R", Pin.OUT)
 
 sig_red = PWM(red)
 sig_blue = PWM(blue)

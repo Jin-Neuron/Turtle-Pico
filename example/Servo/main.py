@@ -1,8 +1,7 @@
 from machine import PWM, Pin
 import time
-from lib.TurtlePico import Leatherback
 
-servo1 = PWM(Pin(Leatherback.ESC_SERVO_RR))
+servo1 = PWM(Pin("ESC_SERVO_RR"))
 servo1.freq(50)
 
 max_duty = 65025

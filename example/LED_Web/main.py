@@ -3,21 +3,21 @@ from machine import PWM
 import network
 import socket
 import time
-from lib.TurtlePico import TurtlePico
+from wifi_config import wifi_config
  
 #LEDのピンをPWM出力に設定
-blue=PWM(machine.Pin(TurtlePico.LED_R, machine.Pin.OUT))
-red = PWM(machine.Pin(TurtlePico.LED_L, machine.Pin.OUT))
+led_r=PWM(machine.Pin("LED_R", machine.Pin.OUT))
+led_l = PWM(machine.Pin("LED_L", machine.Pin.OUT))
 
 #周波数とデューティー比を設定
-blue.freq(1000)
-blue.duty_u16(0)
-red.freq(1000)
-red.duty_u16(0)
+led_r.freq(1000)
+led_r.duty_u16(0)
+led_l.freq(1000)
+led_l.duty_u16(0)
 
 #自宅Wi-FiのSSIDとパスワードを入力
-ssid = 'SSID'
-password = 'PASS'
+ssid = wifi_config.ssid
+password = wifi_config.pw
 
 #Wi-Fiに接続
 wlan = network.WLAN(network.STA_IF)
@@ -34,7 +34,7 @@ html = """<!DOCTYPE html><html>
 .buttonBlue { background-color: #191970; border: 2px solid #000000;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }
 text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
 </style></head>
-<body><center><h1>Raspberry Pi Pico W</h1></center><br><br>
+<body><center><h1>Turtle Pico LED Web Control</h1></center><br><br>
 <form method="POST"><center>
 <center> <button class="buttonBlue" name="led" value="blue" type="submit">Blue Toggle</button>
 <center> <label>duty_blue<br><input type="range" name="duty_blue" value="%s" min="0" max="100"></label>
@@ -95,7 +95,7 @@ while True:
             duty_red_u16 = duty_red / 100 * 65536
 
             print("red_value set",duty_red)
-            red.duty_u16(int(duty_red_u16))
+            led_l.duty_u16(int(duty_red_u16))
         
         #blue_toggleの場合はduty_blueを変更
         if blue_toggle > -1:
@@ -105,7 +105,7 @@ while True:
             duty_blue_u16 = duty_blue / 100 * 65536
             
             print("blue_value set",duty_blue)
-            blue.duty_u16(int(duty_blue_u16))
+            led_r.duty_u16(int(duty_blue_u16))
         
         #HTMLをクライアントに送信
         response = html % (duty_blue, duty_red)

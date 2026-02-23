@@ -1,17 +1,16 @@
 from machine import Pin, PWM
 import time, _thread
-from lib.TurtlePico import Leatherback
 
-servo1 = PWM(Pin(Leatherback.ESC_SERVO_RR))
+servo1 = PWM(Pin("ESC_SERVO_RR"))
 servo1.freq(50)
 
-enable_right = Pin(Leatherback.MOTOR_ENR, Pin.OUT)
-enable_left = Pin(Leatherback.MOTOR_ENL, Pin.OUT)
-left = Pin(Leatherback.MOTOR_L, Pin.OUT)
-right = Pin(Leatherback.MOTOR_R, Pin.OUT)
+enable_right = Pin("MOTOR_ENR", Pin.OUT)
+enable_left = Pin("MOTOR_ENL", Pin.OUT)
+left = Pin("MOTOR_L", Pin.OUT)
+right = Pin("MOTOR_R", Pin.OUT)
 
-led_r = Pin(Leatherback.LED_R, Pin.OUT)
-led_l = Pin(Leatherback.LED_L, Pin.OUT)
+led_r = Pin("LED_R", Pin.OUT)
+led_l = Pin("LED_L", Pin.OUT)
 
 def servo_control():
     global servo1

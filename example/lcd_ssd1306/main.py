@@ -2,13 +2,12 @@ from machine import Pin, SPI, I2C
 import framebuf, time
 from lib.ssd1306 import SSD1306_SPI, SSD1306_I2C
 from lib.img_lib import img_lib
-from lib.TurtlePico import TurtlePico
 
-led1 = Pin(TurtlePico.LED_R, Pin.OUT)
-led2 = Pin(TurtlePico.LED_L, Pin.OUT)
+led1 = Pin("LED_R", Pin.OUT)
+led2 = Pin("LED_L", Pin.OUT)
 
-SW_Up = Pin(TurtlePico.SW_L, Pin.IN, Pin.PULL_DOWN)
-SW_Down = Pin(TurtlePico.SW_R, Pin.IN, Pin.PULL_DOWN)
+SW_Up = Pin("SW_L", Pin.IN, Pin.PULL_DOWN)
+SW_Down = Pin("SW_R", Pin.IN, Pin.PULL_DOWN)
 
 led1.high()
 led2.high()
@@ -25,12 +24,12 @@ num_items = len(img_lib.menu_item_fb)
 #spi設定
 #spi = SPI( TurtlePico.SPI_ID, baudrate = 100000, sck = Pin(TurtlePico.SPI_SCK), mosi = Pin(TurtlePico.SPI_MOSI))
 #i2c設定
-i2c = I2C( id = 0, sda = TurtlePico.I2C_SDA, scl = TurtlePico.I2C_SCL)
+i2c = I2C(0, sda = Pin("I2C_SDA"), scl = Pin("I2C_SCL"))
 
 #pin設定(SPI)
-#oled_cs = Pin(TurtlePico.OLED_CS,Pin.OUT)
-#dc = Pin(TurtlePico.OLED_DC,Pin.OUT)
-#rst = Pin(TurtlePico.OLED_RST,Pin.OUT)
+#oled_cs = Pin("OLED_CS",Pin.OUT)
+#dc = Pin("OLED_DC",Pin.OUT)
+#rst = Pin("OLED_RST",Pin.OUT)
 #display宣言(I2C)
 display = SSD1306_I2C(128, 64, i2c)
 #display宣言(SPI)
@@ -63,8 +62,8 @@ while(True):
 
     #backgroundを表示
     display.fill(0)
-    display.blit(img_lib.item_sel_background 0, 22)
-    display.blit(img_lib.scrollbar_background, 125, 0)
+    #display.blit(img_lib.item_sel_background 0, 22)
+    #display.blit(img_lib.scrollbar_background, 125, 0)
 
     #previous item
     display.blit(img_lib.menu_item_fb[item_sel_previous], 5, 2)
