@@ -2,13 +2,12 @@ from machine import Pin, I2C, reset
 import time
 import ustruct
 from lib.fusion import Fusion
-from lib.TurtlePico import TurtlePico
 
-calibrate_sw = Pin(TurtlePico.SW_R, Pin.IN)
-reset_sw = Pin(TurtlePico.SW_L, Pin.IN)
+calibrate_sw = Pin("SW_R", Pin.IN)
+reset_sw = Pin("SW_L", Pin.IN)
 
 fuse = Fusion()
-i2c = I2C(TurtlePico.I2C_ID, scl=Pin(TurtlePico.I2C_SCL), sda=Pin(TurtlePico.I2C_SDA), freq=100000)
+i2c = I2C(0, scl=Pin("I2C_SCL"), sda=Pin("I2C_SDA"), freq=100000)
 
 # デバイスのアドレスをスキャンします
 addr = i2c.scan()
