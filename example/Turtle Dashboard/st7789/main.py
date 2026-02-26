@@ -21,26 +21,26 @@ disp_offset = int((240 - disp_width) / 2)
 
 tft = tft_config.config(rotation=0)
 tft.init()
+tft.offset(35,0)
 
-tft.jpg('/img/JinNeuron.jpg', 0, 0, st7789.SLOW)
-time.sleep(1)
+tft.png('/img/JinTurtle.png', 0, 0)
+time.sleep(1.5)
 
 menu = screens.menu(font, font_bold, tft)
 sc = menu
-tft.fill(0x0000) # 黒でクリア
-tft.offset(35,0)
 
 load_cnt = 0
-tft.text(font_small, ' WiFi Connecting...', 32, 160 - 8, 0xFFFF) # 白文字
+tft.fill_rect(0, 310, 170, 10, 0x0000)
+tft.text(font_small, ' Connecting...', 0, 310 - 8, 0xFFFF) # 白文字
 
 def loadingAnimation():
     global load_cnt
     path = '/img/loadingIcon/spinner'+str(load_cnt)+'.png'
-    tft.fill_rect(0, 160 - 16, 32, 32, 0x0000) # 白い枠
-    tft.png(path, 0, 160 - 16) # スピナーアイコン
+    tft.fill_rect(0, 240, 64, 64, 0x0000) # 白い枠
+    tft.png(path, 0, 220) # スピナーアイコン
 
     load_cnt += 1
-    if load_cnt > 8:
+    if load_cnt > 7:
         load_cnt = 0
 
 loadTimer = Timer(period=150, callback=lambda t: loadingAnimation())
