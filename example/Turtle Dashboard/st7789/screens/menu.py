@@ -42,7 +42,7 @@ class menu:
         
         for i, item in enumerate(self.menu_item_char):
             y_pos = 42 + (i * 42) # 項目ごとの高さ
-            self.display.png(self.menu_item_icon[i], 0, y_pos - 5) # アイコン
+            self.display.png(self.menu_item_icon[i], 0, y_pos) # アイコン
             if i == self.item_selected:
                 self.display.text(self.font_bold, item, 37, y_pos, 0xFFFF) # 文字
                 # 選択中の項目は枠を表示

@@ -1,10 +1,9 @@
 import st7789
-import tft_config
 import fonts.vga1_16x32 as font
 import fonts.vga1_bold_16x32 as font_bold
-import time
-import screens
-from machine import Pin
+import fonts.vga1_8x16 as font_small   
+import time, network, screens, tft_config
+from machine import Pin, Timer
 from wifi_config import wifi_config
 
 led1 = Pin("LED_R", Pin.OUT)
@@ -30,6 +29,57 @@ menu = screens.menu(font, font_bold, tft)
 sc = menu
 tft.fill(0x0000) # 黒でクリア
 tft.offset(35,0)
+
+load_cnt = 0
+tft.text(font_small, ' WiFi Connecting...', 32, 160 - 8, 0xFFFF) # 白文字
+
+def loadingAnimation():
+    global load_cnt
+    path = '/img/loadingIcon/spinner'+str(load_cnt)+'.png'
+    tft.fill_rect(0, 160 - 16, 32, 32, 0x0000) # 白い枠
+    tft.png(path, 0, 160 - 16) # スピナーアイコン
+
+    load_cnt += 1
+    if load_cnt > 8:
+        load_cnt = 0
+
+loadTimer = Timer(period=150, callback=lambda t: loadingAnimation())
+
+#WiFiに接続
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+print(wlan.scan())
+wlan.connect(wifi_config.ssid, wifi_config.pw)
+
+max_reconnect = 3
+max_wait = 20
+
+while max_reconnect > 0:
+    while max_wait > 0:
+        if wlan.status() < 0 or wlan.status() >= 3:
+            break
+        max_wait -= 1
+        print('接続待ち...')
+        time.sleep(1)
+
+    if wlan.status() == 3:
+        break
+    else:
+        print(wlan.status())
+        print('接続失敗、再試行します...')
+        wlan.connect(wifi_config.ssid, wifi_config.pw)
+        max_reconnect -= 1
+
+if wlan.status() != 3:
+    print(wlan.status())
+    raise RuntimeError('ネットワーク接続失敗')
+else:
+    print('接続完了')
+    status = wlan.ifconfig()
+    print( 'IPアドレス = ' + status[0] )
+
+loadTimer.deinit() # ローディングアニメーション停止
+
 sc.showDisplay()
 
 while(True):
