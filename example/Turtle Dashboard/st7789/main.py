@@ -19,7 +19,7 @@ disp_width = 170
 disp_height = 320
 disp_offset = int((240 - disp_width) / 2)
 
-tft = tft_config.config(rotation=0)
+tft = tft_config.config(rotation=0, buffer_size=4096)
 tft.init()
 tft.offset(35,0)
 
@@ -27,10 +27,11 @@ tft.png('/img/JinTurtle.png', 0, 0)
 time.sleep(1.5)
 
 menu = screens.menu(font, font_bold, tft)
+cl = screens.clock(font, font_bold, tft)
 sc = menu
 
 load_cnt = 0
-tft.fill_rect(0, 310, 170, 10, 0x0000)
+tft.fill_rect(0, 302, 170, 18, 0x0000)
 tft.text(font_small, ' Connecting...', 0, 310 - 8, 0xFFFF) # 白文字
 
 def loadingAnimation():
@@ -85,22 +86,25 @@ sc.showDisplay()
 while(True):
     if(SW_Sel.value() == 1 and not button_sel_clicked):
         button_sel_clicked = True
-        '''
+        
         if(sc == menu):
+            sc.tim_scroll.deinit() # メニューのスクロールタイマー停止
             if(menu.menu_item_char[menu.item_selected] == 'Clock'):
                 sc = cl
                 if(not sc.isTimeset):
                     sc.setTimeThread()
-            elif(menu.menu_item_char[menu.item_selected] == 'Weather'):
-                sc = wt
+                sc.showDisplay()
+            #elif(menu.menu_item_char[menu.item_selected] == 'Weather'):
+            #    sc = wt
             else:
                 raise Exception( "Invalid Menu Item!" )
         else:
             #return menu screen
             if(sc.selMenu() < 0):
                 sc = menu
+                sc.showDisplay()
                 continue
-        '''
+        
 
     if(SW_Up.value() == 1 and not button_up_clicked):
         sc.upMenu()
