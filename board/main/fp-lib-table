@@ -10,4 +10,5 @@
   (lib (name "JinPro")(type "KiCad")(uri "${KIPRJMOD}/lib/Logos/JinPro.pretty")(options "")(descr ""))
   (lib (name "PCBWay")(type "KiCad")(uri "${KIPRJMOD}/lib/Logos/PCBWay.pretty")(options "")(descr ""))
   (lib (name "STX-3000")(type "KiCad")(uri "${KIPRJMOD}/lib/STX-3000/STX-3000.pretty")(options "")(descr ""))
+  (lib (name "TurtlePico")(type "KiCad")(uri "${KIPRJMOD}/lib/Logos/TurtlePico.pretty")(options "")(descr ""))
 )
