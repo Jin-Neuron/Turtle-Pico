@@ -7261,6 +7261,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 160.02 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 160.02 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c32a43cd-72fe-400a-a14c-f2293545efeb")
 		)
@@ -7329,6 +7347,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ102X"
+			(at 182.88 127 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ102X?qs=sGAEpiMZZMtG0KNrPCHnjSOOg5ypiLdnrFEbXWcegG4%3D"
+			(at 182.88 127 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a34ebcc-0714-44e3-b66b-dd5379dd9c2e")
 		)
@@ -7391,6 +7427,24 @@
 		)
 		(property "Description" ""
 			(at 193.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ102X"
+			(at 193.04 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ102X?qs=sGAEpiMZZMtG0KNrPCHnjSOOg5ypiLdnrFEbXWcegG4%3D"
+			(at 193.04 154.94 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,6 +7582,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "815-ABM8-272-T3"
+			(at 184.15 151.13 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/ABRACON/ABM8-272-T3?qs=QpmGXVUTftEj6miOiJBMxQ%3D%3D"
+			(at 184.15 151.13 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b23746d3-d0ab-44d1-9ebc-a9c9158e0b89")
 		)
@@ -7603,6 +7675,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ270X"
+			(at 137.16 49.53 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ270X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%2FrtB0QVRaLE%3D"
+			(at 137.16 49.53 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "997d5ff6-2184-4a24-81f8-cd56a0dffdc5")
 		)
@@ -7666,6 +7756,24 @@
 		)
 		(property "Description" ""
 			(at 96.52 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "358-SC1510"
+			(at 97.79 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Raspberry-Pi/SC1510?qs=jcD%2FCkGBYePv%252BTwvNgU%2F3g%3D%3D"
+			(at 97.79 110.49 0)
 			(hide yes)
 			(effects
 				(font
@@ -8042,6 +8150,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 134.62 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 134.62 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1cbb0c64-2042-4966-874b-82b1eb5aa185")
 		)
@@ -8102,6 +8228,24 @@
 		)
 		(property "Description" ""
 			(at 182.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "621-AP63203WU-7"
+			(at 182.88 53.34 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D"
+			(at 182.88 53.34 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,6 +8396,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 129.54 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 129.54 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3f5ad04-cc86-4aaa-9dfe-aae7d2e4b384")
 		)
@@ -8320,6 +8482,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 139.7 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 139.7 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b47e0f9a-2102-4145-ab2f-c8bb92f74f25")
 		)
@@ -8380,6 +8560,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 49.53 46.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ330X"
+			(at 49.53 46.99 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ330X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27%2F6yx%252BaxIkNM%3D"
+			(at 49.53 46.99 90)
 			(hide yes)
 			(effects
 				(font
@@ -8455,6 +8653,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 144.78 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 144.78 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d8284f7-ed05-4c6f-835e-e8f458c5f2e9")
 		)
@@ -8517,6 +8733,24 @@
 		)
 		(property "Description" ""
 			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188C81C106MA3D"
+			(at 168.91 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188C81C106MA73D?qs=sGAEpiMZZMvsSlwiRhF8qqQIStF13f022uP9N3oLAK%252Bk%252BEwQ3nJZKw%3D%3D"
+			(at 168.91 55.88 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,6 +8825,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 149.86 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 149.86 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "03bb4300-e98b-4c06-a964-f39be525ba5a")
 		)
@@ -8659,6 +8911,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec6b2126-68cd-43fa-8a0c-dec5db2bb3e4")
 		)
@@ -8719,6 +8989,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ330X"
+			(at 137.16 97.79 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ330X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27%2F6yx%252BaxIkNM%3D"
+			(at 137.16 97.79 90)
 			(hide yes)
 			(effects
 				(font
@@ -8793,6 +9081,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "688-SKRPACE010"
+			(at 193.04 134.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
+			(at 193.04 134.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13160352-1063-4ff5-8410-5c64332e2c66")
 		)
@@ -8856,6 +9162,24 @@
 		)
 		(property "Description" ""
 			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "454-W25Q128JVSIQTR"
+			(at 181.61 92.71 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Winbond/W25Q128JVSIQ-TR?qs=qSfuJ%252Bfl%2Fd7vTyLA9kNdGw%3D%3D"
+			(at 181.61 92.71 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,6 +9271,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "815-AOTB201610S4R7MT"
+			(at 205.74 50.8 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/ABRACON/AOTA-B201610S4R7MT?qs=Imq1NPwxi74%2FXKaZqest4g%3D%3D"
+			(at 205.74 50.8 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b269fe6f-bf3f-43a4-abb5-d02250175b33")
 		)
@@ -9015,6 +9357,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 154.94 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 154.94 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e70143b0-ba20-4463-8f5c-d12e11a6d360")
 		)
@@ -9076,6 +9436,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J475ME7J"
+			(at 57.15 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J475ME47J?qs=sGAEpiMZZMsh%252B1woXyUXjxDBwwEQMMyXyRygq832mz0%3D"
 			(at 57.15 50.8 0)
 			(hide yes)
 			(effects
@@ -9278,6 +9656,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "688-SKRPACE010"
+			(at 193.04 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D"
+			(at 193.04 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "916fcc9d-99be-4491-b081-c1ca85350c4c")
 		)
@@ -9468,6 +9864,24 @@
 		)
 		(property "Description" ""
 			(at 173.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRT1555C1E150JA2D"
+			(at 173.99 147.32 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRT1555C1E150JA02D?qs=sGAEpiMZZMsh%252B1woXyUXjyHZH3XatyV0jyUYZg3HPeY%3D"
+			(at 173.99 147.32 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,6 +10085,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRT1555C1E150JA2D"
+			(at 173.99 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRT1555C1E150JA02D?qs=sGAEpiMZZMsh%252B1woXyUXjyHZH3XatyV0jyUYZg3HPeY%3D"
+			(at 173.99 154.94 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d262b85-32cf-472f-94a8-9e46367b2733")
 		)
@@ -9733,6 +10165,24 @@
 		)
 		(property "Description" ""
 			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J226ME1D"
+			(at 209.55 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J226ME11D?qs=sGAEpiMZZMsh%252B1woXyUXj3cuhBEAw9XkgZlYDCb6sqU%3D"
+			(at 209.55 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9999,6 +10449,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 198.12 53.34 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 198.12 53.34 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "626d1463-6924-47e7-8344-3b7c4fa9bce1")
 		)
@@ -10061,6 +10529,24 @@
 		)
 		(property "Description" ""
 			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J226ME1D"
+			(at 204.47 59.69 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J226ME11D?qs=sGAEpiMZZMsh%252B1woXyUXj3cuhBEAw9XkgZlYDCb6sqU%3D"
+			(at 204.47 59.69 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,6 +10743,24 @@
 		)
 		(property "Description" ""
 			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J475ME7J"
+			(at 67.31 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J475ME47J?qs=sGAEpiMZZMsh%252B1woXyUXjxDBwwEQMMyXyRygq832mz0%3D"
+			(at 67.31 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,6 +10964,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R60J475ME7J"
+			(at 38.1 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J475ME47J?qs=sGAEpiMZZMsh%252B1woXyUXjxDBwwEQMMyXyRygq832mz0%3D"
+			(at 38.1 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3dc38f42-ecc0-4e5f-b38c-192c8d8edd84")
 		)
@@ -10522,6 +11044,24 @@
 		)
 		(property "Description" ""
 			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 62.23 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 62.23 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,6 +11201,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ103X"
+			(at 182.88 134.62 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ103X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ2795zeLty6u68%3D"
+			(at 182.88 134.62 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f9ed8a83-457f-49d7-8b40-73f613ef85ba")
 		)
@@ -10792,6 +11350,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
+			(at 149.86 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
+			(at 149.86 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b2b2a15-7942-4c3f-9b6c-569ba0672bc2")
 		)
@@ -10852,6 +11428,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.32 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2RKF4701X"
+			(at 147.32 90.17 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF4701X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27W1oy%252BMcLHTs%3D"
+			(at 147.32 90.17 90)
 			(hide yes)
 			(effects
 				(font
@@ -10921,6 +11515,24 @@
 		)
 		(property "Description" ""
 			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 124.46 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 124.46 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,6 +11671,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 171.45 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 171.45 93.98 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f9cce59-5f7a-4263-be3a-d1d931dbb442")
 		)
@@ -11184,6 +11814,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ330X"
+			(at 137.16 95.25 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ330X?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27%2F6yx%252BaxIkNM%3D"
+			(at 137.16 95.25 90)
 			(hide yes)
 			(effects
 				(font
@@ -11386,6 +12034,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "815-AB201610S3R3101T"
+			(at 52.07 60.96 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/ABRACON/AOTA-B201610S3R3-101-T?qs=%252BXxaIXUDbq0IZvJW%2F2mv4w%3D%3D"
+			(at 52.07 60.96 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d90fce21-b1bb-4f1b-ba93-746b31bd3041")
 		)
@@ -11448,6 +12114,24 @@
 		)
 		(property "Description" ""
 			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
+			(at 57.15 35.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
+			(at 57.15 35.56 0)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,6 +12207,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R60J475ME7J"
+			(at 44.45 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R60J475ME47J?qs=sGAEpiMZZMsh%252B1woXyUXjxDBwwEQMMyXyRygq832mz0%3D"
+			(at 44.45 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11d18420-31c6-44ba-8f51-2a4a48f558c1")
 		)
@@ -11586,6 +12288,24 @@
 		)
 		(property "Description" ""
 			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-2GEJ270X"
+			(at 137.16 52.07 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2GEJ270X?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%2FrtB0QVRaLE%3D"
+			(at 137.16 52.07 90)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,8 +1,7 @@
 from machine import Pin, I2C
 import time
-from lib.TurtlePico import TurtlePico
 
-i2c = I2C(TurtlePico.I2C_ID, scl=Pin(TurtlePico.I2C_SCL), sda=Pin(TurtlePico.I2C_SDA), freq=100000)
+i2c = I2C(0, scl=Pin("I2C_SCL"), sda=Pin("I2C_SDA"), freq=100000)
 
 # デバイスのアドレスをスキャンします
 addr = i2c.scan()

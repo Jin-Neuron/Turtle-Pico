@@ -2303,7 +2303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71C104KA37_01A-3144197.pdf"
+		(property "Datasheet" ""
 			(at 151.13 106.68 0)
 			(hide yes)
 			(effects
@@ -2338,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCM188R71C104KA7J"
+		(property "Mouser Part Number" "81-GRM155R71C104JA8J"
 			(at 151.13 106.68 90)
 			(hide yes)
 			(effects
@@ -2347,7 +2347,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71C104KA7J"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R71C104JA88J?qs=hNud%2FORuBR1FShEh%252B0yzMw%3D%3D"
 			(at 151.13 106.68 90)
 			(hide yes)
 			(effects
@@ -2407,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/GCM188R71C104KA37_01A-3144197.pdf"
+		(property "Datasheet" ""
 			(at 102.87 110.49 0)
 			(hide yes)
 			(effects
@@ -2442,7 +2442,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "81-GCM188R71C104KA7J"
+		(property "Mouser Part Number" "81-GRM15R61A104KA01J"
 			(at 102.87 110.49 0)
 			(hide yes)
 			(effects
@@ -2451,7 +2451,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/81-GCM188R71C104KA7J"
+		(property "Mouser Price/Stock" "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61A104KA01J?qs=sGAEpiMZZMsh%252B1woXyUXj4f5sDJ%252BKZJJAX4rsnlerMM%3D"
 			(at 102.87 110.49 0)
 			(hide yes)
 			(effects

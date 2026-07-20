@@ -2,12 +2,13 @@ from machine import Pin, SPI, I2C
 import framebuf, os
 import lib, network, time
 from lib.fdrawer import FontDrawer
+from wifi_config import wifi_config
 
-led1 = Pin(lib.TurtlePico.LED_R, Pin.OUT)
-led2 = Pin(lib.TurtlePico.LED_L, Pin.OUT)
+led1 = Pin("LED_R", Pin.OUT)
+led2 = Pin("LED_L", Pin.OUT)
 
-SW_Sel = Pin(lib.TurtlePico.SW_L, Pin.IN, Pin.PULL_DOWN)
-SW_Up = Pin(lib.TurtlePico.SW_R, Pin.IN, Pin.PULL_DOWN)
+SW_Sel = Pin("SW_L", Pin.IN, Pin.PULL_DOWN)
+SW_Up = Pin("SW_R", Pin.IN, Pin.PULL_DOWN)
 
 led1.high()
 led2.high()
@@ -16,14 +17,14 @@ button_sel_clicked = False
 button_up_clicked = False
 
 #spi設定
-#spi = SPI( TurtlePico.SPI_ID, baudrate = 100000, sck = Pin(TurtlePico.SPI_SCK), mosi = Pin(TurtlePico.SPI_MOSI))
+#spi = SPI(1, baudrate = 100000, sck = Pin("SPI_SCK"), mosi = Pin("SPI_MOSI"))
 #i2c設定
-i2c = I2C( id = 0, sda = lib.TurtlePico.I2C_SDA, scl = lib.TurtlePico.I2C_SCL)
+i2c = I2C(0, sda = Pin("I2C_SDA"), scl = Pin("I2C_SCL"))
 
 #pin設定(SPI)
-#oled_cs = Pin(TurtlePico.OLED_CS,Pin.OUT)
-#dc = Pin(TurtlePico.OLED_DC,Pin.OUT)
-#rst = Pin(TurtlePico.OLED_RST,Pin.OUT)
+#oled_cs = Pin("LCD_CS",Pin.OUT)
+#dc = Pin("LCD_DC",Pin.OUT)
+#rst = Pin("LCD_RST",Pin.OUT)
 #display宣言(I2C)
 display = lib.SSD1306_I2C(128, 64, i2c)
 #display宣言(SPI)
@@ -32,14 +33,14 @@ display = lib.SSD1306_I2C(128, 64, i2c)
 #スクリーンオブジェクト
 menu = lib.screens.menu(display)
 cl = lib.screens.clock(display)
-wt = lib.screens.weather(display)
+#wt = lib.screens.weather(display)
 sc = menu
 
 #WiFiに接続
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 print(wlan.scan())
-wlan.connect(lib.wifi_config.ssid, lib.wifi_config.pw)
+wlan.connect(wifi_config.ssid, wifi_config.pw)
 
 max_wait = 10
 while max_wait > 0:
