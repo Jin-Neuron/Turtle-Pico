@@ -1,9 +1,8 @@
 from machine import Pin, PWM
 import time
-import lib.TurtlePico as TurtlePico
 
-r_sw = Pin(TurtlePico.SW_R, Pin.IN)
-l_sw = Pin(TurtlePico.SW_L, Pin.IN, Pin.PULL_DOWN)
+r_sw = Pin("SW_R", Pin.IN)
+l_sw = Pin("SW_L", Pin.IN)
 
 #duty cycle
 Max_duty = 0.1 * 65536
@@ -27,7 +26,7 @@ def calibration():
         time.sleep(3)
     print("Calibration done")
 
-BLDC = PWM(Pin(TurtlePico.ESC_SERVO_FR))
+BLDC = PWM(Pin("ESC_SERVO_FR"))
 BLDC.freq(50)
 
 duty = Max_duty

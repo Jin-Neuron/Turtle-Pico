@@ -1,40 +1,39 @@
 from machine import PWM, Pin, SPI, reset
-from wavplayer import WavPlayer
+from lib.wavplayer import WavPlayer
 import os
 from lib.sdcard import SDCard
 from lib.ssd1306 import SSD1306_SPI
 from lib.img_lib import img_lib
 import framebuf
 import time
-from lib.TurtlePico import TurtlePico
 
 #Pin設定
-orange = PWM(Pin(TurtlePico.LED_R, Pin.OUT))
-green = PWM(Pin(TurtlePico.LED_L, Pin.OUT))
-playSW = Pin(TurtlePico.SW_R, Pin.IN, Pin.PULL_DOWN)
-stopSW = Pin(TurtlePico.SW_L, Pin.IN, Pin.PULL_DOWN)
+orange = PWM(Pin("LED_R", Pin.OUT))
+green = PWM(Pin("LED_L", Pin.OUT))
+playSW = Pin("SW_R", Pin.IN, Pin.PULL_DOWN)
+stopSW = Pin("SW_L", Pin.IN, Pin.PULL_DOWN)
 #oled
-oled_cs = Pin(TurtlePico.OLED_CS)
-dc = Pin(TurtlePico.OLED_DC)
-rst = Pin(TurtlePico.OLED_RST)
+oled_cs = Pin("LCD_CS")
+dc = Pin("LCD_DC")
+rst = Pin("LCD_RST")
 #sd
-sd_cs = Pin(TurtlePico.SD_CS)
+sd_cs = Pin("SD_CS")
 #i2s
-sck_pin = Pin(TurtlePico.I2S_BCLK)   # シリアルクロック出力
-ws_pin = Pin(TurtlePico.I2S_LRCLK)    # ワードクロック出力
-sd_pin = Pin(TurtlePico.I2S_SDATA)    # シリアルデータ出力
+sck_pin = Pin("I2S_BCLK")   # シリアルクロック出力
+ws_pin = Pin("I2S_LRCLK")    # ワードクロック出力
+sd_pin = Pin("I2S_SDATA")    # シリアルデータ出力
 #ultrasonic
-trig = Pin(TurtlePico.TRIG_TX, Pin.OUT)
-echo = Pin(TurtlePico.ECHO_RX, Pin.IN)
+trig = Pin("TRIG_TX", Pin.OUT)
+echo = Pin("ECHO_RX", Pin.IN)
 
 orange.freq(1000)
 green.freq(1000)
 
-spi = SPI( TurtlePico.SPI_ID,
+spi = SPI( 1,
            baudrate = 100000,
-           sck  = Pin(TurtlePico.SPI_SCK),
-           mosi = Pin(TurtlePico.SPI_MOSI),
-           miso = Pin(TurtlePico.SPI_MISO))
+           sck  = Pin("SPI_SCK"),
+           mosi = Pin("SPI_MOSI"),
+           miso = Pin("SPI_MISO"))
 
 sd = SDCard(spi, sd_cs)
 display = SSD1306_SPI(128, 64, spi, dc, rst, oled_cs)
@@ -67,7 +66,7 @@ def main():
                 continue
             
             wp = WavPlayer(
-                id=TurtlePico.I2S_ID,
+                id=0,
                 sck_pin=sck_pin,
                 ws_pin=ws_pin,
                 sd_pin=sd_pin,

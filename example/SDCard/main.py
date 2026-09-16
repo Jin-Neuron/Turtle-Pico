@@ -1,16 +1,14 @@
-from machine import Pin, SPI
+from machine import Pin, SoftSPI
 import machine
 import os
 from lib.sdcard import SDCard
-from lib.TurtlePico import TurtlePico
 
-cs = Pin(TurtlePico.SD_CS)
+cs = Pin("SD_CS")
 
-spi = SPI( TurtlePico.SPI_ID,
-           baudrate = 100000,
-           sck  = machine.Pin(TurtlePico.SPI_SCK),
-           mosi = machine.Pin(TurtlePico.SPI_MOSI),
-           miso = machine.Pin(TurtlePico.SPI_MISO))
+spi = SoftSPI(baudrate = 100000,
+           sck  = machine.Pin("SPI_SCK"),
+           mosi = machine.Pin("SPI_MOSI"),
+           miso = machine.Pin("SPI_MISO"))
 
 sd = SDCard(spi, cs)
 

@@ -9,27 +9,27 @@ from lib.img_lib import img_lib
 import framebuf
 import network
 import socket
-from lib.TurtlePico import TurtlePico
+from wifi_config import wifi_config
 
 #i2c設定
-i2c = I2C(TurtlePico.I2C_ID, scl=Pin(TurtlePico.I2C_SCL), sda=Pin(TurtlePico.I2C_SDA), freq=100000)
+i2c = I2C(0, scl=Pin("I2C_SCL"), sda=Pin("I2C_SDA"), freq=100000)
 #spi設定
-spi = SPI(TurtlePico.SPI_ID, baudrate = 100000, sck = Pin(TurtlePico.SPI_SCK), mosi = Pin(TurtlePico.SPI_MOSI))
+spi = SPI(1, baudrate = 100000, sck = Pin("SPI_SCK"), mosi = Pin("SPI_MOSI"))
 
 #アドレスを設定
 addr_ag = 0x6a
 addr_m = 0x1c
 addr_temp = 0x38
 #自宅Wi-FiのSSIDとパスワードを入力
-ssid = 'SSID'
-password = 'PASS'
+ssid = wifi_config.ssid
+password = wifi_config.pw
 
 #ピンを設定
-trig = Pin(TurtlePico.TRIG_TX, Pin.OUT)
-echo = Pin(TurtlePico.ECHO_RX, Pin.IN)
-cs = Pin(TurtlePico.OLED_CS, Pin.OUT)
-dc = Pin(TurtlePico.OLED_DC, Pin.OUT)
-rst = Pin(TurtlePico.OLED_RST, Pin.OUT)
+trig = Pin("TRIG_TX", Pin.OUT)
+echo = Pin("ECHO_RX", Pin.IN)
+cs = Pin("OLED_CS", Pin.OUT)
+dc = Pin("OLED_DC", Pin.OUT)
+rst = Pin("OLED_RST", Pin.OUT)
 
 #OLEDを初期化
 display = SSD1306_SPI(128, 64, spi, dc, rst, cs)
