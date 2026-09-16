@@ -342,3 +342,5 @@ TSWLatexianTemp*
 
 #wifi-setting file
 wifi_config.py
+
+*.uf2
