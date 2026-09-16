@@ -27,26 +27,35 @@ IC_DATA_CMD = I2C0_BASE + 0x10
 
 class BNO055:
     # デフォルトを _IMU_MODE に変更
-    def __init__(self, id, pin_scl, pin_sda, address=0x28, mode=_IMU_MODE):
+    def __init__(self, i2c_id, pin_scl, pin_sda, address=0x28, mode=_IMU_MODE):
         self.pin_scl = pin_scl
         self.pin_sda = pin_sda
-        self.i2c = I2C(id, sda=pin_sda, scl=pin_scl, freq=400000)
+        self.i2c = I2C(i2c_id, sda=pin_sda, scl=pin_scl, freq=400000)
         self.address = address
         self.tx_cmds = array.array(
             "I",
             [
-                0x001C,  # レジスタ 0x1C
+                0x001A,  # レジスタ 0x1C
                 0x0500,  # Restart + Read (1B目)
                 0x0100,  # Read (2B目)
                 0x0100,  # Read (3B目)
-                0x0300,  # Stop + Read (4B目)
+                0x0100,  # Read (4B目)
+                0x0100,  # Read (5B目)
+                0x0300,  # Stop + Read (6B目)
             ],
         )
 
+        # 2. CHIP_ID (0x00 レジスタ) が 0xA0 を返すまでポーリング待機
+        for _ in range(10):
+            try:
+                chip_id = self.i2c.readfrom_mem(0x29, 0x00, 1)[0]
+                if chip_id == 0xA0:
+                    break
+            except OSError:
+                pass
+            time.sleep_ms(100)
+
         self._config_mode()
-        
-        if self._read_register(_CHIP_ID) != 0xA0:
-            raise RuntimeError("Failed to find BNO055! Check wiring.")
             
         self._reset()
         self._set_mode(mode)
@@ -91,17 +100,16 @@ class BNO055:
         )
 
         # 受信データ用バッファ (6バイト)
-        self.rx_buf_a = bytearray(4)
-        self.rx_buf_b = bytearray(4)
+        self.rx_buf_a = bytearray(6)
+        self.rx_buf_b = bytearray(6)
 
         self.rx_dma_a.irq(handler=irq_handler)
         self.rx_dma_b.irq(handler=irq_handler)
 
-
         self.rx_dma_a.config(
             read=IC_DATA_CMD,
             write=self.rx_buf_a,
-            count=4,
+            count=6,
             ctrl=self.rx_ctrl_a,
             trigger=False
         )
@@ -109,7 +117,7 @@ class BNO055:
         self.rx_dma_b.config(
             read=IC_DATA_CMD,
             write=self.rx_buf_b,
-            count=4,
+            count=6,
             ctrl=self.rx_ctrl_b,
             trigger=False
         )
