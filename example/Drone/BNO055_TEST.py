@@ -9,6 +9,16 @@ import rp2
 # --------------------------------------------------
 i2c = I2C(0, scl=Pin("I2C_SCL"), sda=Pin("I2C_SDA"), freq=400000)
 
+# CHIP_ID (0x00 レジスタ) が 0xA0 を返すまでポーリング待機
+for _ in range(10):
+    try:
+        chip_id = i2c.readfrom_mem(0x29, 0x00, 1)[0]
+        if chip_id == 0xA0:
+            break
+    except OSError:
+        pass
+    time.sleep_ms(100)
+
 # IMU モード (0x08) で起動
 i2c.writeto_mem(0x29, 0x3D, b"\x00")
 time.sleep_ms(50)

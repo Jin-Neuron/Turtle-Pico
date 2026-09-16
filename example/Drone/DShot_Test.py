@@ -5,20 +5,22 @@ import rp2
 from BNO055 import BNO055
 
 # ==========================================
-# 0. 吊り下げテスト用パラメータ設定
+# 0. 動作確認用設定パラメータ
 # ==========================================
-# 浮かび上がらず、かつ姿勢制御の推力が効くスロットル値 (1100〜1300程度)
-TEST_THROTTLE = 15.0
+# テスト用ベーススロットル (%)：プロペラなしでの確認は 5.0%〜10.0% 程度
+BENCH_THROTTLE_PCT = 6.0
 
-# 1軸拘束のため、まずはD項を0にしてPゲインの限界を探る
-# Pitchのテスト時は Kp_roll を 0 に、Rollのテスト時は Kp_pitch を 0 にするとより確実です
-KP_ROLL = 0.03
-KP_PITCH = 0.04 #0.04
-KD_ROLL = 0.01  # BNO055差分によるノイズ・スパイク防止のため一旦0
-KD_PITCH = 0.02 #0.02  # 0.2 / 同上
+# 動作確認時のPIDゲイン (ピッチ軸の傾きでモーター出力が変わるか確認用)
+KP_ROLL = 0.0
+KP_PITCH = 0.3  # 傾き10°で約3%の補正
+KD_ROLL = 0.0
+KD_PITCH = 0.0
 
-MAX_TILT_DEG = 45.0  # 吊り下げ時の非常停止角度
+MAX_TILT_DEG = 45.0  # 異常傾斜時の安全停止角度
 
+# ==========================================
+# 1. センサ & DMA割り込み設定
+# ==========================================
 pin_scl = machine.Pin("I2C_SCL")
 pin_sda = machine.Pin("I2C_SDA")
 
@@ -58,9 +60,6 @@ def dma_rx_irq_handler(dma_obj):
     t_last_irq = time.ticks_us()
 
 
-# ==========================================
-# 1. センサーおよびハードウェア初期化
-# ==========================================
 print("BNO055 初期化中...")
 sensor = BNO055(0, pin_scl, pin_sda, address=0x29)
 if not sensor.load_calibration_from_file():
@@ -69,6 +68,12 @@ if not sensor.load_calibration_from_file():
 sensor.configure(dma_rx_irq_handler)
 fc_core.set_sensor_buffer(sensor.rx_buf_a)
 
+# ==========================================
+# 2. DShot300用 PIO ステートマシン定義
+# ==========================================
+# 12MHz動作 (1サイクル = 83.33ns, 40サイクル = 3.33us = 300kHz)
+# Bit 0: HIGH 15サイクル (1.25us) / LOW 25サイクル (2.08us)
+# Bit 1: HIGH 30サイクル (2.50us) / LOW 10サイクル (0.83us)
 
 @rp2.asm_pio(
     sideset_init=rp2.PIO.OUT_LOW,
@@ -124,80 +129,89 @@ def dshot300():
 
     wrap()
 
-
+# モーターピン割り当て
 pin_rr = machine.Pin("ESC_SERVO_RR", machine.Pin.OUT)
 pin_fr = machine.Pin("ESC_SERVO_FR", machine.Pin.OUT)
 pin_rl = machine.Pin("ESC_SERVO_RL", machine.Pin.OUT)
 pin_fl = machine.Pin("ESC_SERVO_FL", machine.Pin.OUT)
 
 freq = 12_000_000  # 12MHz
+
+# PIO1 の SM0〜SM3 を使用
 sm_rr = rp2.StateMachine(0, dshot300, freq=freq, sideset_base=pin_rr)
 sm_fr = rp2.StateMachine(1, dshot300, freq=freq, sideset_base=pin_fr)
 sm_rl = rp2.StateMachine(2, dshot300, freq=freq, sideset_base=pin_rl)
 sm_fl = rp2.StateMachine(3, dshot300, freq=freq, sideset_base=pin_fl)
 
+# ステートマシンを起動（C側初期化前はパケット値0をアイドル送信）
 for sm in (sm_rr, sm_fr, sm_rl, sm_fl):
     sm.put(0)
     sm.active(1)
 
+print("DShot300 PIO Initialized.")
+
+# Cモジュール側へハードウェア設定を伝達 (PIO1, SM0, SM1, SM2, SM3)
 fc_core.init_hardware(0, 0, 1, 2, 3)
 
-# PIDゲインセット (D=0)
+# PIDゲインと初期設定
 fc_core.set_pid(KP_ROLL, KP_PITCH, KD_ROLL, KD_PITCH)
+fc_core.set_throttle(0.0)
+fc_core.set_armed(False)
 
-# 吊り下げて水平がつり合った状態で水平キャリブレーション
-print("静止水平状態で水平キャリブレーションを実行します...")
+# 静止状態での水平ゼロ点キャリブレーション
+print("静止状態でキャリブレーションを実行します...")
 time.sleep(1)
 fc_core.calibrate()
-print("キャリブレーション完了。")
+print("キャリブレーション完了。ESCのアーム待機信号（値0）を出力中...")
 
 # ==========================================
-# 2. 吊り下げベンチテスト実行ループ
+# 3. テスト実行ループ
 # ==========================================
 try:
-    print("\n--- 吊り下げテストモード ---")
-    print(f"Base Throttle: {TEST_THROTTLE} us")
-    print(
-        f"PID -> Roll P:{KP_ROLL}, D:{KD_ROLL} | Pitch P:{KP_PITCH}, D:{KD_PITCH}"
-    )
-    input("Enterキーを押すとモーターが低速回転を開始します...")
+    print("\n--- DShot300 動作テスト ---")
+    print(f"Target Throttle: {BENCH_THROTTLE_PCT:.1f}%")
+    input("プロペラが外れていることを確認し、Enterキーを押してアーム開始...")
 
-    fc_core.set_throttle(TEST_THROTTLE)
+    # アームしてスロットル投入
     fc_core.set_armed(True)
     isStarted = True
     sensor.activate()
+    fc_core.set_throttle(BENCH_THROTTLE_PCT)
 
-    print("動作中... (Ctrl+C で即座にディスアーム/停止)")
+    print("動作中: 機体を前後に傾けてモーター回転変化を確認してください。")
+    print("(Ctrl+C で即時ディスアーム/停止)")
 
     while True:
         roll, pitch = fc_core.get_angles()
 
-        # 安全装置: 糸が外れたり暴走して傾きすぎた場合は即停止
         if abs(roll) > MAX_TILT_DEG or abs(pitch) > MAX_TILT_DEG:
             raise RuntimeError(
-                f"角度制限超過 (Roll: {roll:.1f}°, Pitch: {pitch:.1f}°)"
+                f"角度リミット超過 (Roll: {roll:.1f}°, Pitch: {pitch:.1f}°)"
             )
 
         freq_hz = (1_000_000 / interval_us) if interval_us > 0 else 0
         print(
-            f"Roll: {roll:6.1f}° | Pitch: {pitch:6.1f}° | Loop: {freq_hz:4.0f}Hz",
+            f"Roll: {roll:5.1f}° | Pitch: {pitch:5.1f}° | Loop: {freq_hz:4.0f}Hz | Exec: {exec_time_us}us",
             end="\r",
         )
 
         time.sleep_ms(5)
 
 except KeyboardInterrupt:
-    print("\n[ユーザー停止] 安全にディスアームしました。")
+    print("\n[ユーザー停止] ディスアームを実行しました。")
 
 except Exception as e:
     print(f"\n[エラー停止] {e}")
 
 finally:
-    # 確実なモーター全停止
+    # 完全停止シーケンス
     isStarted = False
     fc_core.set_throttle(0.0)
     fc_core.set_armed(False)
+
+    # 各SMのFIFOにディスアーム値(0)を直接投入
     for sm in (sm_rr, sm_fr, sm_rl, sm_fl):
         sm.put(0)
-    print("全モーター出力を 1000us (OFF) に設定しました。")
+
+    print("全モーター停止・ディスアーム完了。")
     machine.reset()
